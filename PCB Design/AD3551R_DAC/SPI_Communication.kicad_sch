@@ -5,6 +5,146 @@
 	(uuid "f6116f41-9716-4fa0-91d4-2ddb8bd67f49")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Logic_LevelTranslator:TXB0101DBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -597,6 +737,12 @@
 		(uuid "059fb712-95ef-49ab-9405-71a83a423e44")
 	)
 	(junction
+		(at 220.98 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07edb733-fe2c-4179-90b1-1db6b4e5a864")
+	)
+	(junction
 		(at 148.59 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -645,6 +791,12 @@
 		(uuid "76b37749-3e55-4c16-a159-ec3ce71b9510")
 	)
 	(junction
+		(at 228.6 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d35d992-860d-48d0-bd4d-3da4972d5069")
+	)
+	(junction
 		(at 118.11 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -679,6 +831,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa379048-8331-4e2c-915c-f6b116338bde")
+	)
+	(no_connect
+		(at 246.38 83.82)
+		(uuid "681aa312-6249-4859-be81-2f7210364c14")
 	)
 	(wire
 		(pts
@@ -852,6 +1008,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 118.11) (xy 71.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c71557-aa19-4db1-82cc-2be80528fe87")
+	)
+	(wire
+		(pts
 			(xy 50.8 53.34) (xy 85.09 53.34)
 		)
 		(stroke
@@ -902,6 +1068,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 81.28) (xy 228.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83000ee7-9f6e-4a51-a12c-fb56ac94c17e")
+	)
+	(wire
+		(pts
 			(xy 115.57 57.15) (xy 146.05 57.15)
 		)
 		(stroke
@@ -919,6 +1095,16 @@
 			(type default)
 		)
 		(uuid "9adcbd32-9624-4072-9628-673347664bbd")
+	)
+	(wire
+		(pts
+			(xy 256.54 78.74) (xy 254 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a9c0b0-2c5c-4f98-9384-5f2730f398e3")
 	)
 	(wire
 		(pts
@@ -982,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 71.12) (xy 228.6 82.55)
+			(xy 228.6 71.12) (xy 228.6 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1009,6 +1195,16 @@
 			(type default)
 		)
 		(uuid "c4c21eca-fccf-44ce-bc5d-0dc5a6ba12b4")
+	)
+	(wire
+		(pts
+			(xy 228.6 81.28) (xy 236.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63c947c-6bae-4a97-bb37-672ce39c7b71")
 	)
 	(wire
 		(pts
@@ -1089,6 +1285,26 @@
 			(type default)
 		)
 		(uuid "f018debc-baaf-48d6-8d72-954c0d0657b3")
+	)
+	(wire
+		(pts
+			(xy 220.98 53.34) (xy 256.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2aacfe1-2134-4bf0-adf1-3e1c061aa0fe")
+	)
+	(wire
+		(pts
+			(xy 256.54 53.34) (xy 256.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa068ebe-b156-4996-ad7a-82bf9939ec9b")
 	)
 	(wire
 		(pts
@@ -1262,6 +1478,19 @@
 		)
 		(uuid "634d7b84-ec2b-44f5-8211-52625cee651d")
 	)
+	(hierarchical_label "VCCA_SPI"
+		(shape input)
+		(at 73.66 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7b16a2d7-d6bd-4ac2-92cb-0d9e1fa2c0e5")
+	)
 	(hierarchical_label "1.8V_SDI"
 		(shape input)
 		(at 92.71 82.55 270)
@@ -1342,7 +1571,7 @@
 	)
 	(hierarchical_label "1.8VCS1"
 		(shape input)
-		(at 228.6 82.55 270)
+		(at 228.6 90.17 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2075,6 +2304,169 @@
 			(project "AD3551R_DAC"
 				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/8f9bf37b-c170-430d-a5fd-8462a87c4453"
 					(reference "U205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bacc1e46-eba5-4330-b030-5b5ed0359ac0")
+		(property "Reference" "R201"
+			(at 250.19 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 250.19 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bca38fa-d22a-433f-a81b-1200688a9439")
+		)
+		(pin "2"
+			(uuid "357acf73-aba6-422b-b09e-2286e1d58df8")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/8f9bf37b-c170-430d-a5fd-8462a87c4453"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 241.3 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e06d376a-be4e-4456-aef6-1e704045a539")
+		(property "Reference" "SW202"
+			(at 241.3 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 241.3 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 241.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28b10b7f-aa39-4c7e-a84f-29a63aeeead0")
+		)
+		(pin "2"
+			(uuid "9bd49f05-c779-4915-8233-c6515479a31e")
+		)
+		(pin "3"
+			(uuid "f9dc8152-caf8-4dbb-bfa7-63d030a7fe3d")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/8f9bf37b-c170-430d-a5fd-8462a87c4453"
+					(reference "SW202")
 					(unit 1)
 				)
 			)
