@@ -2054,10 +2054,28 @@
 		(uuid "0aa43aea-dbc2-4fff-abdb-3cdde3e0b4ea")
 	)
 	(junction
+		(at 269.24 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "266aedca-c4c5-4800-a453-fe8e2a367ab2")
+	)
+	(junction
+		(at 257.81 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50b9cb4a-784f-4a53-82e7-781a3a41365d")
+	)
+	(junction
 		(at 48.26 73.66)
 		(diameter 0)
 		(color 0 0 194 1)
 		(uuid "6d943832-440f-49a5-83a1-117236d97f61")
+	)
+	(junction
+		(at 269.24 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e281a88-770d-4ca4-95b1-3281962fc9a0")
 	)
 	(junction
 		(at 71.12 73.66)
@@ -2126,10 +2144,22 @@
 		(uuid "bfcdd187-9731-4cd1-8cd9-a48f90597321")
 	)
 	(junction
+		(at 261.62 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1d94bfe-5834-48fd-b60b-29b8516aaf5b")
+	)
+	(junction
 		(at 48.26 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4c54661-4957-4e6e-a0f8-889f5a5c4a09")
+	)
+	(junction
+		(at 261.62 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d502492a-8b46-442d-b6ab-754396aaa52b")
 	)
 	(junction
 		(at 48.26 83.82)
@@ -2429,6 +2459,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 73.66) (xy 269.24 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e46ba84-642a-42d5-8f8f-57fc7981a10b")
+	)
+	(wire
+		(pts
 			(xy 59.69 83.82) (xy 71.12 83.82)
 		)
 		(stroke
@@ -2503,6 +2543,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 62.23) (xy 261.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8764c083-b1df-494c-a833-6cb2b55c920c")
+	)
+	(wire
+		(pts
 			(xy 158.75 96.52) (xy 203.2 96.52)
 		)
 		(stroke
@@ -2511,6 +2561,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "97fb27cd-620a-4b7f-80a6-bf2f5930302b")
+	)
+	(wire
+		(pts
+			(xy 261.62 73.66) (xy 261.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9991de17-6eac-48cb-88df-8b4754f0a59c")
 	)
 	(wire
 		(pts
@@ -2585,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "b3c76269-2e5b-4c6c-b62f-4f2a3cc65564")
+	)
+	(wire
+		(pts
+			(xy 269.24 62.23) (xy 269.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bc8d00-b66f-4f83-bc63-ff09458fa702")
 	)
 	(wire
 		(pts
@@ -2693,6 +2763,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 62.23) (xy 261.62 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0d5227-5851-49e5-b399-17f6cf56b87e")
+	)
+	(wire
+		(pts
 			(xy 48.26 91.44) (xy 59.69 91.44)
 		)
 		(stroke
@@ -2712,6 +2792,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "e1bcc3ae-c89f-41df-9fac-b3cc16e600e3")
+	)
+	(wire
+		(pts
+			(xy 269.24 85.09) (xy 269.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e4cb79-fce0-44fb-91ca-a899bb469b92")
 	)
 	(wire
 		(pts
@@ -3288,6 +3378,86 @@
 			(project "AD3551R_DAC"
 				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/d70c20e7-6db8-4174-a944-0619e976b5fb"
 					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 265.43 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "301b4475-afcf-4841-a6cd-cbdfff2ee71d")
+		(property "Reference" "C311"
+			(at 265.43 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 265.43 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 72.6948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 265.43 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "65035152-8216-4365-8a75-ec644dcb2427")
+		)
+		(pin "1"
+			(uuid "c7168fa5-6d1c-4f9f-9ab2-a90eacb7e9af")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/d70c20e7-6db8-4174-a944-0619e976b5fb"
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -4201,6 +4371,86 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 265.43 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67dbed04-4ea0-4bc1-982a-64e8364bbc9f")
+		(property "Reference" "C310"
+			(at 265.43 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 265.43 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 61.2648 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 265.43 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5e384e8f-d6ed-4f5f-a0c6-97300a9aa00d")
+		)
+		(pin "1"
+			(uuid "81683f02-5edc-412e-92a8-3ee6dff68897")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/d70c20e7-6db8-4174-a944-0619e976b5fb"
+					(reference "C310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 163.83 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -4705,6 +4955,165 @@
 			(project "AD3551R_DAC"
 				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/d70c20e7-6db8-4174-a944-0619e976b5fb"
 					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 265.43 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdbbca94-375a-4237-8ca6-ef805b44b19d")
+		(property "Reference" "C312"
+			(at 265.43 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 265.43 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 84.1248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 265.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b42ff970-6ea6-4e15-b538-9a13d1319b5c")
+		)
+		(pin "1"
+			(uuid "e8bafc05-e8c0-48dc-9251-08770e87c7de")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/d70c20e7-6db8-4174-a944-0619e976b5fb"
+					(reference "C312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2d08b85-930c-4333-bef8-bb251f5083df")
+		(property "Reference" "#PWR0310"
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 269.24 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "830fc305-7648-469d-92c2-17572ced8677")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/d70c20e7-6db8-4174-a944-0619e976b5fb"
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)

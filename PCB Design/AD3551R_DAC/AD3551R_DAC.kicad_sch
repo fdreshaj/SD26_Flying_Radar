@@ -11482,7 +11482,7 @@
 		(dnp no)
 		(uuid "f4c65fd2-ed39-446f-9a42-0579bbf54a85")
 		(property "Reference" "R105"
-			(at 85.344 119.126 90)
+			(at 80.264 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11492,7 +11492,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 85.344 121.666 90)
+			(at 80.264 121.158 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
