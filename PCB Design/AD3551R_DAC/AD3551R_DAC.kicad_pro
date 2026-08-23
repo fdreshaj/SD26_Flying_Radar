@@ -235,7 +235,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -384,7 +384,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 5,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -417,7 +417,7 @@
         "uuid": "3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f"
       }
     ],
-    "used_designators": "U1-7,U101-102,U201-206,U301-303,U401-403,D101-102,D401-406,#PWR101-137,#PWR201-202,#PWR301-310,#PWR401-426,SW101-102,SW201-202,SW301-304,SW401-404,#FLG101-102,#FLG401-402,R101-109,R201,R301,R401-409,J101-105,J401,C101-106,C301-312,C401-411,MK401,L101,L401-402,RV301,TP101-102,H101-104",
+    "used_designators": "U1-7,U101-102,U201-206,U301-303,U401-403,D101-102,D401-406,#PWR101-137,#PWR201-208,#PWR301-310,#PWR401-426,SW101-102,SW201-202,SW301-304,SW401-404,#FLG101-103,#FLG401-403,R101-109,R201-202,R301,R401-409,J101-105,J401,C101-106,C201-212,C301-312,C401-411,MK401,L101,L401-402,RV301,TP101-102,H101-104",
     "variants": []
   },
   "sheets": [

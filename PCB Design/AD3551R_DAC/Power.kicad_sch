@@ -1790,6 +1790,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PWR_FLAG_1"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:AP63203WU"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3941,6 +4056,12 @@
 		(uuid "a4be9ad0-90c4-40a4-b7d2-9e715dc5b02c")
 	)
 	(junction
+		(at 156.21 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8e76d2f-b32e-4f09-a4b8-5c3c70ca56d1")
+	)
+	(junction
 		(at 91.44 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3999,6 +4120,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8d17977-5b1b-4725-8892-5631819916df")
+	)
+	(junction
+		(at 111.76 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa172007-5f98-43e8-a836-cb8b3a291a34")
 	)
 	(no_connect
 		(at 76.2 91.44)
@@ -6227,6 +6354,86 @@
 			(project "AD3551R_DAC"
 				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/95f28a58-495b-4fb9-a246-a29ea89a7291"
 					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PWR_FLAG_1")
+		(lib_id "power:PWR_FLAG")
+		(at 156.21 128.27 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53e8d5bc-1cc4-4924-8f0a-2b91ebe7fe22")
+		(property "Reference" "#FLG0403"
+			(at 158.115 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 160.02 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 156.21 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62848d72-a90b-4a8f-a28a-b2b4d017274e")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/95f28a58-495b-4fb9-a246-a29ea89a7291"
+					(reference "#FLG0403")
 					(unit 1)
 				)
 			)
@@ -8715,6 +8922,86 @@
 			(project "AD3551R_DAC"
 				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/95f28a58-495b-4fb9-a246-a29ea89a7291"
 					(reference "U402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "PWR_FLAG_1")
+		(lib_id "power:PWR_FLAG")
+		(at 111.76 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89771de-36e7-4278-b409-2bfc4fdb0aee")
+		(property "Reference" "#FLG0402"
+			(at 113.665 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 115.57 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7768ad81-0917-47f7-980e-e6bd3499a71e")
+		)
+		(instances
+			(project "AD3551R_DAC"
+				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f/95f28a58-495b-4fb9-a246-a29ea89a7291"
+					(reference "#FLG0402")
 					(unit 1)
 				)
 			)
