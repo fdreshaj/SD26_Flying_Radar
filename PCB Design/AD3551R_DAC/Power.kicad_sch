@@ -8533,7 +8533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_extra:DYD0005A-MFG"
+		(property "Footprint" "Parts_fab:TLV_1V8"
 			(at 40.64 83.82 0)
 			(hide yes)
 			(show_name no)
