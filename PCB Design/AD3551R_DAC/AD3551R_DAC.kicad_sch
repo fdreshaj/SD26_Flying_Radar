@@ -9473,7 +9473,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 0 194 0.5019607843)
 		)
 		(uuid "8f9bf37b-c170-430d-a5fd-8462a87c4453")
 		(property "Sheetname" "SPI_Communication"
@@ -9705,7 +9705,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 255 0 0.5019607843)
 		)
 		(uuid "d70c20e7-6db8-4174-a944-0619e976b5fb")
 		(property "Sheetname" "DAC_Main"
