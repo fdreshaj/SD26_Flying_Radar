@@ -3203,7 +3203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 60.6552 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3440,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 269.24 72.6948 0)
 			(hide yes)
 			(show_name no)
@@ -3601,7 +3601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.2252 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3681,7 +3681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:toggle_switch"
 			(at 247.65 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3845,7 +3845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.2252 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3927,7 +3927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 176.2252 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4009,7 +4009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 72.0852 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4168,7 +4168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:toggle_switch"
 			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4251,7 +4251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP-32-30_ADI"
+		(property "Footprint" "Parts_fab:AD3551R"
 			(at 102.87 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4426,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 269.24 61.2648 0)
 			(hide yes)
 			(show_name no)
@@ -4508,7 +4508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.7952 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +4588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RJ_5_ADI"
+		(property "Footprint" "Parts_fab:AD8065"
 			(at 210.82 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4679,7 +4679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:3_way_switch_CUS-13TB_NDC"
 			(at 229.235 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -4779,7 +4779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 60.6552 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5017,7 +5017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 269.24 84.1248 0)
 			(hide yes)
 			(show_name no)
@@ -5178,7 +5178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.6552 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5260,7 +5260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 203.962 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -5421,7 +5421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 72.0852 83.82 0)
 			(hide yes)
 			(show_name no)

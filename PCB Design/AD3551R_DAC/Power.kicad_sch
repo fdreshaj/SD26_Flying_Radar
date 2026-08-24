@@ -6066,7 +6066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:toggle_switch"
 			(at 140.97 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6151,7 +6151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 139.192 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -6311,7 +6311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 106.172 90.17 90)
 			(hide yes)
 			(show_name no)
@@ -6635,7 +6635,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 140.97 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7141,7 +7141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 149.352 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -7700,7 +7700,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 151.13 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +7953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 107.95 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8044,7 +8044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:toggle_switch"
 			(at 96.52 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8293,7 +8293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:toggle_switch"
 			(at 130.81 35.56 0)
 			(hide yes)
 			(show_name no)

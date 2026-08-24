@@ -4942,7 +4942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 196.85 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5022,7 +5022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
 			(at 118.11 127 0)
 			(hide yes)
 			(show_name no)
@@ -5413,7 +5413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:toggle_switch"
 			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5812,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal"
 			(at 45.72 46.355 90)
 			(hide yes)
 			(show_name no)
@@ -6083,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:SAMESKY_UJ20-C-H-G-SMT-1-P16-TR"
 			(at 53.34 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6202,7 +6202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-2-2.5-V-THR_1x02_P2.50mm_Vertical"
 			(at 43.18 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -6522,7 +6522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
 			(at 118.11 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6995,7 +6995,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.21 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7232,7 +7232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Parts_fab:toggle_switch"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7317,7 +7317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.21 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7477,7 +7477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 213.36 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7710,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.518 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -7871,7 +7871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
 			(at 106.68 127 0)
 			(hide yes)
 			(show_name no)
@@ -8109,7 +8109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_Pad"
 			(at 106.68 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8424,7 +8424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 248.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8740,7 +8740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal"
 			(at 45.72 81.915 90)
 			(hide yes)
 			(show_name no)
@@ -8855,7 +8855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.21 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9249,7 +9249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.598 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -9331,7 +9331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 29.21 43.18 0)
 			(hide yes)
 			(show_name no)
