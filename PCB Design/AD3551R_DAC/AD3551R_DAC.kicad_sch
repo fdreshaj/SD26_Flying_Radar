@@ -3412,6 +3412,10 @@
 		(uuid "6520c70c-bc0a-4a00-89b2-3bbbbc9ebc26")
 	)
 	(no_connect
+		(at 208.28 64.77)
+		(uuid "7a70bd36-62be-46c8-9289-919b19e065ac")
+	)
+	(no_connect
 		(at 35.56 39.37)
 		(uuid "939d6f93-43f3-404a-b418-fb8cdb395499")
 	)
@@ -6431,85 +6435,6 @@
 			(project "AD3551R_DAC"
 				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f"
 					(reference "SW101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 208.28 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "947d194f-b391-4414-94a8-2e31c635be19")
-		(property "Reference" "TP101"
-			(at 209.55 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 210.82 62.738 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 213.36 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 208.28 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c73159d-3668-46a5-9f75-80a731cc20dc")
-		)
-		(instances
-			(project "AD3551R_DAC"
-				(path "/3d4144e0-3656-4efa-94fd-8cd1f0e2cd3f"
-					(reference "TP101")
 					(unit 1)
 				)
 			)
