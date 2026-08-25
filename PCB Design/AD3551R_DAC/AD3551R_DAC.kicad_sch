@@ -3443,17 +3443,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 44.45) (xy 81.28 44.45)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "02b7ea1e-4f12-4f36-9883-fa1fdfb2616b")
-	)
-	(wire
-		(pts
 			(xy 191.77 52.07) (xy 191.77 49.53)
 		)
 		(stroke
@@ -3465,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 101.6 57.15)
+			(xy 78.74 57.15) (xy 101.6 57.15)
 		)
 		(stroke
 			(width 0.254)
@@ -3473,6 +3462,17 @@
 			(color 0 0 255 1)
 		)
 		(uuid "16d6a474-ff60-4870-9bc1-26de4abe8316")
+	)
+	(wire
+		(pts
+			(xy 78.74 46.99) (xy 55.88 46.99)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "198f2fb5-59b8-46ba-88b8-e50ee5333ab0")
 	)
 	(wire
 		(pts
@@ -3494,6 +3494,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "2b60d4f0-ec22-4e4e-8b6e-16a9093900d2")
+	)
+	(wire
+		(pts
+			(xy 55.88 80.01) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd9d0ae-6905-4db4-bb9f-e7e21eda28b5")
 	)
 	(wire
 		(pts
@@ -3530,7 +3540,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 83.82 41.91)
+			(xy 85.09 54.61) (xy 85.09 41.91)
 		)
 		(stroke
 			(width 0.254)
@@ -3548,6 +3558,17 @@
 			(type default)
 		)
 		(uuid "39cf5ae2-6b76-4696-b6ec-bee858551fd2")
+	)
+	(wire
+		(pts
+			(xy 78.74 57.15) (xy 78.74 46.99)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "409eab6f-ec02-4592-9328-9da5ae2e61e6")
 	)
 	(wire
 		(pts
@@ -3638,16 +3659,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 46.99) (xy 78.74 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a64e7ef-e6bc-4014-bf6f-19c6d2d7c01d")
-	)
-	(wire
-		(pts
 			(xy 208.28 64.77) (xy 208.28 66.04)
 		)
 		(stroke
@@ -3679,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 41.91) (xy 83.82 41.91)
+			(xy 55.88 41.91) (xy 85.09 41.91)
 		)
 		(stroke
 			(width 0.254)
@@ -3883,7 +3894,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 67.31) (xy 92.71 67.31)
+			(xy 101.6 67.31) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0.254)
@@ -3901,6 +3912,27 @@
 			(type default)
 		)
 		(uuid "9685d441-cd6a-4d6f-b954-8c7d9eaa1003")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 93.98 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "9bc1ddbf-856a-4ebd-980f-7585a380f1fc")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da18bb9-da46-459e-a9db-116a6c492b02")
 	)
 	(wire
 		(pts
@@ -3922,17 +3954,6 @@
 			(type default)
 		)
 		(uuid "9e74a546-806c-46b0-b9d1-71759774646c")
-	)
-	(wire
-		(pts
-			(xy 92.71 80.01) (xy 55.88 80.01)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "a03ca25c-68b6-43a3-87ae-764bddfd8e71")
 	)
 	(wire
 		(pts
@@ -4009,7 +4030,18 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 54.61) (xy 83.82 54.61)
+			(xy 93.98 82.55) (xy 55.88 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "b4683af5-717c-4032-ac7d-680365a7ed42")
+	)
+	(wire
+		(pts
+			(xy 101.6 54.61) (xy 85.09 54.61)
 		)
 		(stroke
 			(width 0.254)
@@ -4051,17 +4083,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 67.31) (xy 92.71 80.01)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "c62e5f85-b4fa-4f96-a882-db873d241271")
-	)
-	(wire
-		(pts
 			(xy 55.88 90.17) (xy 64.77 90.17)
 		)
 		(stroke
@@ -4069,16 +4090,6 @@
 			(type default)
 		)
 		(uuid "c6eeae2a-92c0-42e3-87db-e86e841cfdcd")
-	)
-	(wire
-		(pts
-			(xy 55.88 82.55) (xy 72.39 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc729347-cbde-4582-b27e-45edc47ee4c2")
 	)
 	(wire
 		(pts
@@ -4214,17 +4225,6 @@
 			(color 255 255 0 1)
 		)
 		(uuid "eed90dfd-e9a9-4900-a9c0-51e1d85a534c")
-	)
-	(wire
-		(pts
-			(xy 81.28 57.15) (xy 81.28 44.45)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "f00614a7-57c5-4f4a-829f-7ccaa15f2474")
 	)
 	(wire
 		(pts
@@ -5126,7 +5126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal"
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X"
 			(at 45.72 46.355 90)
 			(hide yes)
 			(show_name no)
@@ -5645,7 +5645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 46.99 0)
+		(at 81.28 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5656,7 +5656,7 @@
 		(fields_autoplaced yes)
 		(uuid "5eaead37-1433-47d5-a244-4ee152dee62f")
 		(property "Reference" "#PWR0106"
-			(at 78.74 53.34 0)
+			(at 81.28 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5667,7 +5667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 52.07 0)
+			(at 81.28 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5678,7 +5678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 46.99 0)
+			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5689,7 +5689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 46.99 0)
+			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,7 +5700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 46.99 0)
+			(at 81.28 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +6276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 82.55 0)
+		(at 73.66 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6287,7 +6287,7 @@
 		(fields_autoplaced yes)
 		(uuid "88850bcc-9a68-47f4-8f54-55ab21e91c52")
 		(property "Reference" "#PWR0109"
-			(at 72.39 88.9 0)
+			(at 73.66 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6298,7 +6298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 87.63 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 82.55 0)
+			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 82.55 0)
+			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6331,7 +6331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 82.55 0)
+			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,7 +7498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Abracon_ARJP11A-MA_Horizontal"
+		(property "Footprint" "Connector_RJ:RJ45_Amphenol_RJHSE538X"
 			(at 45.72 81.915 90)
 			(hide yes)
 			(show_name no)
