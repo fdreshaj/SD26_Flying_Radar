@@ -429,7 +429,7 @@
         "uuid": "5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
       }
     ],
-    "used_designators": "1uF1,10uF1,H1-4,U1-14,0.01uF1,#PWR1-29,C1-28,TP1-2,R1-2,#FLG1-2,J1-14,D1,SW1-2",
+    "used_designators": "1uF1,10uF1,H1-4,U1-20,0.01uF1,#PWR1-38,C1-46,TP1-2,R1-4,#FLG1-2,J1-17,D1,SW1-7,P1",
     "variants": []
   },
   "sheets": [
@@ -446,12 +446,20 @@
       "Power Delivery"
     ],
     [
+      "16a5affc-fb8b-4f7a-ab4f-ffbc2f53bdd6",
+      "SPI Communications"
+    ],
+    [
+      "81ed6aba-4ce9-46a8-9f2a-cfb086f29798",
+      "Sequencer LevelShifter"
+    ],
+    [
       "87df5885-7998-43ae-a02d-bc6fe9534f86",
       "Output"
     ],
     [
-      "16a5affc-fb8b-4f7a-ab4f-ffbc2f53bdd6",
-      "SPI Communications"
+      "a73070fe-dcdf-4bd8-8822-8e6a99104d9c",
+      "Cal Line"
     ],
     [
       "b0ed0dda-e217-4f40-aab9-33e6b142e890",
