@@ -3915,6 +3915,16 @@
 		)
 		(uuid "fd55e91b-4bb7-42f3-80cd-ec503a133df0")
 	)
+	(text "use jumper instead"
+		(exclude_from_sim no)
+		(at 96.774 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2bbbbdcd-c574-4c46-bb45-086594b724a8")
+	)
 	(text "LDO +1.8V 1A"
 		(exclude_from_sim no)
 		(at 140.716 70.866 0)
@@ -3926,6 +3936,16 @@
 			)
 		)
 		(uuid "56bef346-5d9f-43e2-9769-f684c241beb1")
+	)
+	(text "remove vbus switch, just diode for reverse polarity protection"
+		(exclude_from_sim no)
+		(at 50.292 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b1ca78f-6dab-46d8-aa49-42586c06c949")
 	)
 	(text "Switching: 5V 2A\n"
 		(exclude_from_sim no)
@@ -3989,6 +4009,16 @@
 			(justify left)
 		)
 		(uuid "8f7a7838-0764-4ac0-87d6-6dc98853fbb4")
+	)
+	(text "use jumper instead"
+		(exclude_from_sim no)
+		(at 141.732 136.906 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ad1a940-ceff-47b1-82b0-58d2016d52cd")
 	)
 	(text "Digital 1.8V Rail Current Consumption"
 		(exclude_from_sim no)

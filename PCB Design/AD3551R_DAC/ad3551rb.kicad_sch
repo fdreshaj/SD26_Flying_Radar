@@ -3299,6 +3299,26 @@
 		)
 		(uuid "283d61d0-2308-42b8-99af-a3bd1997e5d9")
 	)
+	(text "SDIO 2 and 3 are Unnecesary remove and pull down"
+		(exclude_from_sim no)
+		(at 51.562 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60f4d973-9579-4a2f-a49a-794b2bebc7c3")
+	)
+	(text "Unnecesary\nTie to VLOGIC"
+		(exclude_from_sim no)
+		(at 197.612 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a0fcdeb-28ab-4533-9de1-b453b950eebb")
+	)
 	(text "Unnecesary -- remove next rev"
 		(exclude_from_sim no)
 		(at 33.274 131.064 90)
@@ -3308,6 +3328,16 @@
 			)
 		)
 		(uuid "6b75e24e-a6ce-45cc-bdce-a32cfe3ebea6")
+	)
+	(text "unnecesary, tie to gnd\n"
+		(exclude_from_sim no)
+		(at 157.48 98.552 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8ac7b978-a13f-4ff6-a04b-7fa394e97e3d")
 	)
 	(text "LEVEL SHIFTERS"
 		(exclude_from_sim no)
@@ -7906,7 +7936,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 194 0.5019607843)
+			(color 0 255 255 1)
 		)
 		(uuid "92d97249-1675-4f8a-a6c3-11d93df13d08")
 		(property "Sheetname" "SPI_Communication [3]"
