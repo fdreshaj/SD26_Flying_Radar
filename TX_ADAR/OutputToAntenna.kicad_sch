@@ -194,7 +194,7 @@
 	)
 	(text "Out4"
 		(exclude_from_sim no)
-		(at 99.314 66.294 0)
+		(at 156.464 20.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -204,7 +204,7 @@
 	)
 	(text "Out3"
 		(exclude_from_sim no)
-		(at 42.164 68.072 0)
+		(at 114.554 20.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -214,7 +214,7 @@
 	)
 	(text "Out2"
 		(exclude_from_sim no)
-		(at 97.282 28.702 0)
+		(at 73.406 20.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -224,17 +224,17 @@
 	)
 	(text "RF Out"
 		(exclude_from_sim no)
-		(at 66.04 24.13 0)
+		(at 94.742 16.51 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "8c6618a2-0484-40ce-8759-25834cf94ad1")
 	)
 	(text "Out1"
 		(exclude_from_sim no)
-		(at 42.418 29.972 0)
+		(at 32.258 20.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -243,40 +243,120 @@
 		(uuid "e4913891-40a5-468e-b695-a7d1bac63d08")
 	)
 	(no_connect
-		(at 97.79 52.07)
+		(at 73.66 41.91)
 		(uuid "0e06d371-a97a-4b4c-9407-6ed9ec02b34d")
 	)
 	(no_connect
-		(at 43.18 40.64)
+		(at 31.75 29.21)
 		(uuid "336568fb-9d27-4ce2-8376-ffa2462366a1")
 	)
 	(no_connect
-		(at 97.79 39.37)
+		(at 73.66 29.21)
 		(uuid "33f43c54-8739-4fe5-b36e-cca6073cba60")
 	)
 	(no_connect
-		(at 41.91 90.17)
+		(at 114.3 41.91)
 		(uuid "76efaba0-f3a1-4e57-8922-ae07542d4c69")
 	)
 	(no_connect
-		(at 99.06 74.93)
+		(at 156.21 29.21)
 		(uuid "7d3f4546-98d7-4fc0-a64e-0b3c965598ab")
 	)
 	(no_connect
-		(at 43.18 52.07)
+		(at 31.75 41.91)
 		(uuid "804273bf-eaaa-4ce7-a95c-5bdf0e6818df")
 	)
 	(no_connect
-		(at 41.91 77.47)
+		(at 114.3 29.21)
 		(uuid "dacb9c77-c2b1-4fc4-9dfc-5f48fe08ee4e")
 	)
 	(no_connect
-		(at 99.06 87.63)
+		(at 156.21 41.91)
 		(uuid "f3d4eadd-6090-4c0f-8130-f35ace5117bf")
+	)
+	(wire
+		(pts
+			(xy 105.41 24.13) (xy 109.22 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8e6dfd-1af0-4cb7-be0a-77563bedf851")
+	)
+	(wire
+		(pts
+			(xy 22.86 24.13) (xy 26.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e28fd1d-600b-4747-b934-1a3d3db8fe15")
+	)
+	(wire
+		(pts
+			(xy 22.86 36.83) (xy 26.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715728c0-2965-4cad-aaa2-838d21e877ef")
+	)
+	(wire
+		(pts
+			(xy 147.32 24.13) (xy 151.13 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72356f3a-903d-4931-9dc0-2ee40801b1ff")
+	)
+	(wire
+		(pts
+			(xy 64.77 36.83) (xy 68.58 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c39b86-a934-42ab-94af-00c5b4237556")
+	)
+	(wire
+		(pts
+			(xy 64.77 24.13) (xy 68.58 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e79c45ea-a160-40a7-b80c-1f01095dd8a4")
+	)
+	(wire
+		(pts
+			(xy 105.41 36.83) (xy 109.22 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7a8703-2636-45f0-9637-94a75d409dbc")
+	)
+	(wire
+		(pts
+			(xy 147.32 36.83) (xy 151.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce98821-49e0-4967-aa99-7a92718a7edb")
 	)
 	(hierarchical_label "Out1+"
 		(shape input)
-		(at 26.67 35.56 180)
+		(at 22.86 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -287,7 +367,7 @@
 	)
 	(hierarchical_label "Out4-"
 		(shape input)
-		(at 85.09 82.55 180)
+		(at 147.32 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -298,7 +378,7 @@
 	)
 	(hierarchical_label "Out4+"
 		(shape input)
-		(at 85.09 69.85 180)
+		(at 147.32 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -309,7 +389,7 @@
 	)
 	(hierarchical_label "Out3+"
 		(shape input)
-		(at 27.94 72.39 180)
+		(at 105.41 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -318,9 +398,9 @@
 		)
 		(uuid "77d419c9-3de5-4f79-92de-4ef2e95da5f2")
 	)
-	(hierarchical_label "Out2+"
+	(hierarchical_label "Out2-"
 		(shape input)
-		(at 80.01 46.99 180)
+		(at 64.77 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -331,7 +411,7 @@
 	)
 	(hierarchical_label "Out1-"
 		(shape input)
-		(at 26.67 46.99 180)
+		(at 22.86 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -342,7 +422,7 @@
 	)
 	(hierarchical_label "Out2+"
 		(shape input)
-		(at 80.01 34.29 180)
+		(at 64.77 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -353,7 +433,7 @@
 	)
 	(hierarchical_label "Out3-"
 		(shape input)
-		(at 27.94 85.09 180)
+		(at 105.41 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -364,7 +444,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 99.06 82.55 0)
+		(at 156.21 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -375,7 +455,7 @@
 		(fields_autoplaced yes)
 		(uuid "06789877-268f-4092-8a7c-21e7816895ac")
 		(property "Reference" "J10"
-			(at 102.87 81.5731 0)
+			(at 160.02 35.8531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -386,7 +466,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 102.87 84.1131 0)
+			(at 160.02 38.3931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -397,7 +477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 82.55 0)
+			(at 156.21 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -408,7 +488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 82.55 0)
+			(at 156.21 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -419,7 +499,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 99.06 82.55 0)
+			(at 156.21 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -446,7 +526,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 99.06 69.85 0)
+		(at 156.21 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -457,7 +537,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f4325a5-ef8b-4c9d-a562-409691a71dd9")
 		(property "Reference" "J9"
-			(at 102.87 68.8731 0)
+			(at 160.02 23.1531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -468,7 +548,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 102.87 71.4131 0)
+			(at 160.02 25.6931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -479,7 +559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 69.85 0)
+			(at 156.21 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -490,7 +570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 69.85 0)
+			(at 156.21 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -501,7 +581,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 99.06 69.85 0)
+			(at 156.21 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -528,7 +608,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 41.91 85.09 0)
+		(at 114.3 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -539,7 +619,7 @@
 		(fields_autoplaced yes)
 		(uuid "4751731c-83a4-488a-a4c6-ef64f631789e")
 		(property "Reference" "J8"
-			(at 45.72 84.1131 0)
+			(at 118.11 35.8531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -550,7 +630,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 45.72 86.6531 0)
+			(at 118.11 38.3931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -561,7 +641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 85.09 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -572,7 +652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 85.09 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -583,7 +663,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 41.91 85.09 0)
+			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -610,7 +690,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 43.18 46.99 0)
+		(at 31.75 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -621,7 +701,7 @@
 		(fields_autoplaced yes)
 		(uuid "53484cf3-c2e2-431c-a69e-bd35b3b8eefa")
 		(property "Reference" "J4"
-			(at 46.99 46.0131 0)
+			(at 35.56 35.8531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -632,7 +712,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 46.99 48.5531 0)
+			(at 35.56 38.3931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -643,7 +723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 46.99 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -654,7 +734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 46.99 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -665,7 +745,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 43.18 46.99 0)
+			(at 31.75 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -692,7 +772,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 97.79 34.29 0)
+		(at 73.66 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -703,7 +783,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a0e05aa-caa1-4558-83e6-8a5bcfbc171e")
 		(property "Reference" "J5"
-			(at 101.6 33.3131 0)
+			(at 77.47 23.1531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -714,7 +794,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 101.6 35.8531 0)
+			(at 77.47 25.6931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -725,7 +805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 34.29 0)
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -736,7 +816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 34.29 0)
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -747,7 +827,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 97.79 34.29 0)
+			(at 73.66 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -774,7 +854,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 43.18 35.56 0)
+		(at 31.75 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -785,7 +865,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ea6c762-d5b5-430f-b203-c4111e8829f5")
 		(property "Reference" "J3"
-			(at 46.99 34.5831 0)
+			(at 35.56 23.1531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -796,7 +876,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 46.99 37.1231 0)
+			(at 35.56 25.6931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -807,7 +887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 35.56 0)
+			(at 31.75 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -818,7 +898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 35.56 0)
+			(at 31.75 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -829,7 +909,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 43.18 35.56 0)
+			(at 31.75 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -856,7 +936,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 41.91 72.39 0)
+		(at 114.3 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -867,7 +947,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3c060a4-98ba-4942-b9c4-54cdfc506169")
 		(property "Reference" "J7"
-			(at 45.72 71.4131 0)
+			(at 118.11 23.1531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -878,7 +958,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 45.72 73.9531 0)
+			(at 118.11 25.6931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -889,7 +969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 72.39 0)
+			(at 114.3 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,7 +980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 72.39 0)
+			(at 114.3 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -911,7 +991,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 41.91 72.39 0)
+			(at 114.3 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -938,7 +1018,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 97.79 46.99 0)
+		(at 73.66 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -949,7 +1029,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5d4ad07-02fa-4409-80be-9ece9c13497d")
 		(property "Reference" "J6"
-			(at 101.6 46.0131 0)
+			(at 77.47 35.8531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -960,7 +1040,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 101.6 48.5531 0)
+			(at 77.47 38.3931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -971,7 +1051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 46.99 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -982,7 +1062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 46.99 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -993,7 +1073,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 97.79 46.99 0)
+			(at 73.66 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
