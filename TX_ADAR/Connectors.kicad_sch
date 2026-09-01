@@ -14352,6 +14352,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Tied to gnd\nWill be CSB2 for ADAR2004"
 		(exclude_from_sim no)
@@ -14678,6 +14793,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d302f3-55b9-4926-8483-af1f11634aab")
+	)
+	(junction
+		(at 40.64 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bae60b05-721b-45c2-825c-a803dfcbb5e4")
 	)
 	(junction
 		(at 93.98 88.9)
@@ -15860,7 +15981,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 66.04) (xy 44.45 66.04)
+			(xy 35.56 66.04) (xy 40.64 66.04)
 		)
 		(stroke
 			(width 0)
@@ -15898,6 +16019,16 @@
 			(type default)
 		)
 		(uuid "b9ceb341-a180-4e86-830e-bd31a2f94813")
+	)
+	(wire
+		(pts
+			(xy 40.64 66.04) (xy 44.45 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5d48d0-1953-4eed-a055-5cdf3401f0f7")
 	)
 	(wire
 		(pts
@@ -16262,17 +16393,6 @@
 		)
 		(uuid "36d09532-b35d-41e2-8490-0e14f5e1ee10")
 	)
-	(hierarchical_label "VCCA_SPI"
-		(shape output)
-		(at 44.45 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "47df4abc-86ac-41d9-a65c-a2c512cc9aa5")
-	)
 	(hierarchical_label "3V3SDO"
 		(shape output)
 		(at 231.14 25.4 180)
@@ -16294,6 +16414,17 @@
 			(justify left)
 		)
 		(uuid "4d2971f8-b6ed-44f9-87c0-5deea0a76799")
+	)
+	(hierarchical_label "VCCA_SPI"
+		(shape output)
+		(at 44.45 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e968b66-7d8a-4308-9d8b-39abfc7aa1db")
 	)
 	(hierarchical_label "TxADV"
 		(shape output)
@@ -16350,6 +16481,17 @@
 		)
 		(uuid "73a6e201-afe2-45ec-a896-4da58a41494c")
 	)
+	(hierarchical_label "VCCA_SPI"
+		(shape output)
+		(at 229.87 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75362578-f627-4ef4-8969-722a0f2564eb")
+	)
 	(hierarchical_label "MADV"
 		(shape output)
 		(at 186.69 27.94 180)
@@ -16371,17 +16513,6 @@
 			(justify right)
 		)
 		(uuid "b5377219-10e1-41b0-8bae-baccc555dcef")
-	)
-	(hierarchical_label "VCCA_SPI"
-		(shape output)
-		(at 231.14 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bbae8de6-15f9-4ac4-8eb7-6c67ba97c299")
 	)
 	(hierarchical_label "3V3_SDIO"
 		(shape output)
@@ -16544,6 +16675,85 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e26930-e3bf-49fc-a65c-65f7251ff9bb")
+		(property "Reference" "#FLG03"
+			(at 40.64 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c22f8df-fb76-4504-a0f8-33fdbe0bb01f")
+		)
+		(instances
+			(project "TX_ADAR"
+				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

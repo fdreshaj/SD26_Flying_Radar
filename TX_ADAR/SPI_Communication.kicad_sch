@@ -910,6 +910,12 @@
 		(uuid "e5153717-ea95-448f-8216-dec939a859fd")
 	)
 	(junction
+		(at 48.26 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00159b0a-2b94-4d90-be26-2998f3ea518d")
+	)
+	(junction
 		(at 139.7 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -994,12 +1000,6 @@
 		(uuid "6c6053f0-6b04-4ff9-9cdf-3f3065f05a8d")
 	)
 	(junction
-		(at 48.26 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "761c1b71-430c-464d-bf11-8cf5d9304d2c")
-	)
-	(junction
 		(at 91.44 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1034,6 +1034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c57d32b-1f40-4af8-b806-e7588779719c")
+	)
+	(junction
+		(at 50.8 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d895d31-32ad-43c6-809a-915f2f68149e")
 	)
 	(junction
 		(at 88.9 29.21)
@@ -1082,12 +1088,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df3564ba-5184-46fb-a55e-9b14204b862d")
-	)
-	(junction
-		(at 50.8 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e202eaf4-fa80-4ba5-b67a-f9ce0fc95921")
 	)
 	(junction
 		(at 63.5 29.21)
@@ -1606,17 +1606,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 29.21) (xy 26.67 29.21)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 46 82 255 1)
-		)
-		(uuid "6de90d1a-40ca-434a-8d74-834e51d2455a")
-	)
-	(wire
-		(pts
 			(xy 210.82 29.21) (xy 236.22 29.21)
 		)
 		(stroke
@@ -1639,17 +1628,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 24.13) (xy 48.26 49.53)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 46 82 255 1)
-		)
-		(uuid "6ee741c0-c28c-44ae-9670-2488950ae512")
-	)
-	(wire
-		(pts
 			(xy 140.97 59.69) (xy 143.51 59.69)
 		)
 		(stroke
@@ -1657,17 +1635,6 @@
 			(type default)
 		)
 		(uuid "750bbef4-83a0-4b55-8e09-59db573d095f")
-	)
-	(wire
-		(pts
-			(xy 48.26 29.21) (xy 63.5 29.21)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 46 82 255 1)
-		)
-		(uuid "76c6508b-bbc4-44b2-abc1-765751da1cbb")
 	)
 	(wire
 		(pts
@@ -1679,6 +1646,17 @@
 			(color 255 180 68 1)
 		)
 		(uuid "7ad171ad-78ed-4d9c-8169-1c408e9128d5")
+	)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 46 82 255 1)
+		)
+		(uuid "7b2caaca-758f-4328-b5bc-60fd612280c6")
 	)
 	(wire
 		(pts
@@ -1773,6 +1751,17 @@
 			(type default)
 		)
 		(uuid "8bb34ce8-5231-41d2-b692-ebbc096a94a3")
+	)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 46 82 255 1)
+		)
+		(uuid "8caf048e-a40d-43cd-84e9-ae168d6699a2")
 	)
 	(wire
 		(pts
@@ -1881,6 +1870,17 @@
 			(color 255 180 68 1)
 		)
 		(uuid "980f5566-ad0a-44b1-962d-10b6357b10b6")
+	)
+	(wire
+		(pts
+			(xy 48.26 24.13) (xy 48.26 29.21)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 46 82 255 1)
+		)
+		(uuid "98347cf5-4317-4612-abc9-f475456dc720")
 	)
 	(wire
 		(pts
@@ -2198,6 +2198,17 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 29.21) (xy 48.26 29.21)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 46 82 255 1)
+		)
+		(uuid "eb8ed1ed-3a60-4221-91ca-b8b7ce9ecaab")
+	)
+	(wire
+		(pts
 			(xy 151.13 45.72) (xy 139.7 45.72)
 		)
 		(stroke
@@ -2309,7 +2320,7 @@
 		)
 		(uuid "178bee35-323d-4899-81bd-2f3d4b7ab6cd")
 	)
-	(hierarchical_label "3V3CS1"
+	(hierarchical_label "3V3CSB"
 		(shape input)
 		(at 226.06 74.93 270)
 		(effects
@@ -2320,7 +2331,7 @@
 		)
 		(uuid "2ca25622-8ac1-42ff-bf07-6398191809a7")
 	)
-	(hierarchical_label "1V8CS1"
+	(hierarchical_label "1V8CSB"
 		(shape output)
 		(at 251.46 74.93 270)
 		(effects
@@ -2878,6 +2889,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Logic_LevelTranslator:TXB0101DBV")
+		(at 50.8 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1660856d-f5dc-4966-95b9-fefe90bb1113")
+		(property "Reference" "U19"
+			(at 66.04 53.2698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXB0101DBV"
+			(at 66.04 55.8098 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0101.pdf"
+			(at 50.8 60.452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SOT-23-6"
+			(at 50.8 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "614c1f3f-135a-4009-87f3-356d3d62a1fc")
+		)
+		(pin "4"
+			(uuid "b5594283-233b-48ac-9b08-75a11b5340a4")
+		)
+		(pin "5"
+			(uuid "4fc1c6e7-2a22-4509-9135-fa9da35436f1")
+		)
+		(pin "2"
+			(uuid "98c5f1ee-58e4-47d6-a0ab-0c30cf13d991")
+		)
+		(pin "6"
+			(uuid "d6b4f156-6851-4ec4-82ba-e858ff537735")
+		)
+		(pin "3"
+			(uuid "87513078-6e71-4cdd-8c23-42d09edbad64")
+		)
+		(instances
+			(project "TX_ADAR"
+				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/16a5affc-fb8b-4f7a-ab4f-ffbc2f53bdd6"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 45.72 0)
 		(unit 1)
@@ -3192,97 +3294,6 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/16a5affc-fb8b-4f7a-ab4f-ffbc2f53bdd6"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:TXB0101DBV")
-		(at 50.8 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5a30bc2c-d327-4758-a2ec-a3b973ce51c4")
-		(property "Reference" "U9"
-			(at 66.04 53.2698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TXB0101DBV"
-			(at 66.04 55.8098 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 50.8 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0101.pdf"
-			(at 50.8 60.452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1-Bit Bidirectional Voltage-Level Translator With Auto Direction Sensing and ±15-kV ESD Protection, SOT-23-6"
-			(at 50.8 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92e01232-dd26-4503-9ece-e19155b8deb5")
-		)
-		(pin "4"
-			(uuid "e0ebfa92-84bf-4bcc-8bba-fa0c4cad5a16")
-		)
-		(pin "5"
-			(uuid "2efea952-069d-4638-8e36-7989c359f2a8")
-		)
-		(pin "2"
-			(uuid "ea4dd3db-5c95-4428-8ee6-c7e42b3ee416")
-		)
-		(pin "6"
-			(uuid "b5045b37-9d53-46c7-ab11-57a0cfbee764")
-		)
-		(pin "3"
-			(uuid "a98fa922-bac5-4ca5-bcf2-fafd097f8181")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/16a5affc-fb8b-4f7a-ab4f-ffbc2f53bdd6"
-					(reference "U9")
 					(unit 1)
 				)
 			)

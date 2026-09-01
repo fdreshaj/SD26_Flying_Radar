@@ -6021,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 22.6825 0)
+		(at 280.67 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6031,7 +6031,7 @@
 		(dnp no)
 		(uuid "b686fa28-7b4d-4114-ab59-bc03fa4f2a60")
 		(property "Reference" "#PWR019"
-			(at 280.67 29.0325 0)
+			(at 280.67 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6042,7 +6042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 26.7465 0)
+			(at 280.67 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6052,7 +6052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 22.6825 0)
+			(at 280.67 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,7 +6063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 22.6825 0)
+			(at 280.67 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +6074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 22.6825 0)
+			(at 280.67 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +7140,7 @@
 				(justify right)
 			)
 		)
-		(pin "1V8_SDIO" output
+		(pin "1V8_SDI" output
 			(at 87.63 53.34 0)
 			(uuid "c5040bf1-568f-487f-8c02-e491520148e5")
 			(effects
@@ -7200,7 +7200,7 @@
 				(justify left)
 			)
 		)
-		(pin "3V3_SDIO" input
+		(pin "3V3_SDI" input
 			(at 54.61 53.34 180)
 			(uuid "78afa49a-7243-49be-9b13-53abbae5c8bb")
 			(effects
