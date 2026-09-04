@@ -1049,16 +1049,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "For reset pins, have them reset \nevery time power is turned on?"
-		(exclude_from_sim no)
-		(at 167.64 106.426 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "033b04db-c600-4eb5-8499-09958384cf81")
-	)
 	(text "Level Shifters\n3V3 -> 1V8"
 		(exclude_from_sim no)
 		(at 138.684 20.066 0)

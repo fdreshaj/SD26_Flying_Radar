@@ -982,12 +982,6 @@
 		(uuid "57a3c6c2-fe67-4ab3-bfb5-303ec6316432")
 	)
 	(junction
-		(at 241.3 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dd8d1ae-e059-4963-a83d-f39a6fb2f509")
-	)
-	(junction
 		(at 198.12 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1106,6 +1100,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3606e6a-9551-4b43-92ad-7cd336bdaf9b")
+	)
+	(junction
+		(at 236.22 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6ede52e-0d83-406f-8c37-54dce474f1c8")
 	)
 	(no_connect
 		(at 269.24 72.39)
@@ -1423,6 +1423,17 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 67.31) (xy 276.86 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 46 82 255 1)
+		)
+		(uuid "49c53858-a50c-4982-9e16-99f66b54c48f")
+	)
+	(wire
+		(pts
 			(xy 170.18 26.67) (xy 170.18 49.53)
 		)
 		(stroke
@@ -1540,6 +1551,17 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 29.21) (xy 279.4 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 46 82 255 1)
+		)
+		(uuid "610f8a17-051f-4ca6-a62e-db94c7cc4f04")
+	)
+	(wire
+		(pts
 			(xy 63.5 29.21) (xy 63.5 34.29)
 		)
 		(stroke
@@ -1559,17 +1581,6 @@
 			(color 46 82 255 1)
 		)
 		(uuid "61869a54-d4ca-4924-b545-40d46e312178")
-	)
-	(wire
-		(pts
-			(xy 279.4 67.31) (xy 276.86 67.31)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 180 68 1)
-		)
-		(uuid "6505504a-7776-4062-810d-ea527115e05e")
 	)
 	(wire
 		(pts
@@ -1978,14 +1989,14 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 26.67) (xy 279.4 26.67)
+			(xy 236.22 29.21) (xy 279.4 29.21)
 		)
 		(stroke
 			(width 0.254)
 			(type default)
-			(color 255 180 68 1)
+			(color 46 82 255 1)
 		)
-		(uuid "b341d78b-1b6e-4a71-bc22-b9f8aa2ecd54")
+		(uuid "b4d34aa1-a1d7-4f14-ba86-23b3f23f5cbd")
 	)
 	(wire
 		(pts
@@ -2059,17 +2070,6 @@
 			(color 255 180 68 1)
 		)
 		(uuid "ca87fb30-e26d-4e44-b149-1f67d57e8bca")
-	)
-	(wire
-		(pts
-			(xy 279.4 26.67) (xy 279.4 67.31)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-			(color 255 180 68 1)
-		)
-		(uuid "cc50b104-0374-4d33-9d43-9305e25f717f")
 	)
 	(wire
 		(pts

@@ -309,7 +309,7 @@
 	)
 	(text "Out4"
 		(exclude_from_sim no)
-		(at 156.464 20.574 0)
+		(at 159.004 26.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -319,7 +319,7 @@
 	)
 	(text "Out3"
 		(exclude_from_sim no)
-		(at 114.554 20.574 0)
+		(at 117.094 26.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -329,7 +329,7 @@
 	)
 	(text "Out2"
 		(exclude_from_sim no)
-		(at 73.406 20.574 0)
+		(at 75.946 26.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -347,9 +347,19 @@
 		)
 		(uuid "8c6618a2-0484-40ce-8759-25834cf94ad1")
 	)
+	(text "All eight lines must have equal electrical and mechanical lengths"
+		(exclude_from_sim no)
+		(at 98.298 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d1b4a12d-8cce-41b6-beee-035dd60f522f")
+	)
 	(text "Out1"
 		(exclude_from_sim no)
-		(at 32.258 20.574 0)
+		(at 34.798 26.924 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -359,7 +369,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 24.13) (xy 109.22 24.13)
+			(xy 107.95 30.48) (xy 111.76 30.48)
 		)
 		(stroke
 			(width 0)
@@ -369,7 +379,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 24.13) (xy 26.67 24.13)
+			(xy 25.4 30.48) (xy 29.21 30.48)
 		)
 		(stroke
 			(width 0)
@@ -379,7 +389,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 43.18) (xy 26.67 43.18)
+			(xy 25.4 49.53) (xy 29.21 49.53)
 		)
 		(stroke
 			(width 0)
@@ -389,7 +399,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 24.13) (xy 151.13 24.13)
+			(xy 149.86 30.48) (xy 153.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -399,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 68.58 43.18)
+			(xy 67.31 49.53) (xy 71.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -409,7 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 24.13) (xy 68.58 24.13)
+			(xy 67.31 30.48) (xy 71.12 30.48)
 		)
 		(stroke
 			(width 0)
@@ -419,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 43.18) (xy 109.22 43.18)
+			(xy 107.95 49.53) (xy 111.76 49.53)
 		)
 		(stroke
 			(width 0)
@@ -429,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 43.18) (xy 151.13 43.18)
+			(xy 149.86 49.53) (xy 153.67 49.53)
 		)
 		(stroke
 			(width 0)
@@ -439,7 +449,7 @@
 	)
 	(hierarchical_label "Out1+"
 		(shape input)
-		(at 22.86 24.13 180)
+		(at 25.4 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -450,7 +460,7 @@
 	)
 	(hierarchical_label "Out4-"
 		(shape input)
-		(at 147.32 43.18 180)
+		(at 149.86 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -461,7 +471,7 @@
 	)
 	(hierarchical_label "Out4+"
 		(shape input)
-		(at 147.32 24.13 180)
+		(at 149.86 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -472,7 +482,7 @@
 	)
 	(hierarchical_label "Out3+"
 		(shape input)
-		(at 105.41 24.13 180)
+		(at 107.95 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -483,7 +493,7 @@
 	)
 	(hierarchical_label "Out2-"
 		(shape input)
-		(at 64.77 43.18 180)
+		(at 67.31 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -494,7 +504,7 @@
 	)
 	(hierarchical_label "Out1-"
 		(shape input)
-		(at 22.86 43.18 180)
+		(at 25.4 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -505,7 +515,7 @@
 	)
 	(hierarchical_label "Out2+"
 		(shape input)
-		(at 64.77 24.13 180)
+		(at 67.31 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -516,7 +526,7 @@
 	)
 	(hierarchical_label "Out3-"
 		(shape input)
-		(at 105.41 43.18 180)
+		(at 107.95 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -527,7 +537,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 48.26 0)
+		(at 158.75 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -537,7 +547,7 @@
 		(dnp no)
 		(uuid "00ade5da-d59e-44f4-8f88-5b0c21549dfa")
 		(property "Reference" "#PWR047"
-			(at 156.21 54.61 0)
+			(at 158.75 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -548,7 +558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 52.578 0)
+			(at 158.75 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -558,7 +568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 48.26 0)
+			(at 158.75 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -569,7 +579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 48.26 0)
+			(at 158.75 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -580,7 +590,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 48.26 0)
+			(at 158.75 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -604,7 +614,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 156.21 43.18 0)
+		(at 158.75 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -615,7 +625,7 @@
 		(fields_autoplaced yes)
 		(uuid "06789877-268f-4092-8a7c-21e7816895ac")
 		(property "Reference" "J10"
-			(at 160.02 42.2031 0)
+			(at 162.56 48.5531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -626,7 +636,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 160.02 44.7431 0)
+			(at 162.56 51.0931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -637,7 +647,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 43.18 0)
+			(at 158.75 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -648,7 +658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 43.18 0)
+			(at 158.75 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -659,7 +669,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 156.21 43.18 0)
+			(at 158.75 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -686,7 +696,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 48.26 0)
+		(at 34.29 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -696,7 +706,7 @@
 		(dnp no)
 		(uuid "1612939c-fd7c-467b-9eba-07f675ad7451")
 		(property "Reference" "#PWR044"
-			(at 31.75 54.61 0)
+			(at 34.29 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -707,7 +717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 52.578 0)
+			(at 34.29 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -717,7 +727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 48.26 0)
+			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -728,7 +738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 48.26 0)
+			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -739,7 +749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 48.26 0)
+			(at 34.29 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -763,7 +773,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 156.21 24.13 0)
+		(at 158.75 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -774,7 +784,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f4325a5-ef8b-4c9d-a562-409691a71dd9")
 		(property "Reference" "J9"
-			(at 160.02 23.1531 0)
+			(at 162.56 29.5031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -785,7 +795,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 160.02 25.6931 0)
+			(at 162.56 32.0431 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -796,7 +806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 24.13 0)
+			(at 158.75 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -807,7 +817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 24.13 0)
+			(at 158.75 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -818,7 +828,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 156.21 24.13 0)
+			(at 158.75 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -845,7 +855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 29.21 0)
+		(at 158.75 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -855,7 +865,7 @@
 		(dnp no)
 		(uuid "38097e65-4eba-4ee7-84c0-85843fc740f0")
 		(property "Reference" "#PWR043"
-			(at 156.21 35.56 0)
+			(at 158.75 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -866,7 +876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 33.528 0)
+			(at 158.75 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -876,7 +886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 29.21 0)
+			(at 158.75 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -887,7 +897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 29.21 0)
+			(at 158.75 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -898,7 +908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 29.21 0)
+			(at 158.75 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -922,7 +932,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 29.21 0)
+		(at 76.2 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -932,7 +942,7 @@
 		(dnp no)
 		(uuid "41ee40a2-f57e-4803-a3b0-ff5975f98f2e")
 		(property "Reference" "#PWR041"
-			(at 73.66 35.56 0)
+			(at 76.2 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -943,7 +953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 33.528 0)
+			(at 76.2 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -953,7 +963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 29.21 0)
+			(at 76.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -964,7 +974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 29.21 0)
+			(at 76.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -975,7 +985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 29.21 0)
+			(at 76.2 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -999,7 +1009,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 29.21 0)
+		(at 34.29 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1009,7 +1019,7 @@
 		(dnp no)
 		(uuid "45a25e60-7dc8-4975-967c-96a4381c87bf")
 		(property "Reference" "#PWR040"
-			(at 31.75 35.56 0)
+			(at 34.29 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1020,7 +1030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 33.528 0)
+			(at 34.29 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1030,7 +1040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 29.21 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1041,7 +1051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 29.21 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1052,7 +1062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 29.21 0)
+			(at 34.29 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1076,7 +1086,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 114.3 43.18 0)
+		(at 116.84 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1087,7 +1097,7 @@
 		(fields_autoplaced yes)
 		(uuid "4751731c-83a4-488a-a4c6-ef64f631789e")
 		(property "Reference" "J8"
-			(at 118.11 42.2031 0)
+			(at 120.65 48.5531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1098,7 +1108,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 118.11 44.7431 0)
+			(at 120.65 51.0931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1109,7 +1119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 43.18 0)
+			(at 116.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1120,7 +1130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 43.18 0)
+			(at 116.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1131,7 +1141,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 114.3 43.18 0)
+			(at 116.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1158,7 +1168,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 31.75 43.18 0)
+		(at 34.29 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1169,7 +1179,7 @@
 		(fields_autoplaced yes)
 		(uuid "53484cf3-c2e2-431c-a69e-bd35b3b8eefa")
 		(property "Reference" "J4"
-			(at 35.56 42.2031 0)
+			(at 38.1 48.5531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1180,7 +1190,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 35.56 44.7431 0)
+			(at 38.1 51.0931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1191,7 +1201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 43.18 0)
+			(at 34.29 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1202,7 +1212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 43.18 0)
+			(at 34.29 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1213,7 +1223,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 31.75 43.18 0)
+			(at 34.29 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1240,7 +1250,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 48.26 0)
+		(at 76.2 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1250,7 +1260,7 @@
 		(dnp no)
 		(uuid "61f0802a-db7a-4c38-9079-f641f9f152a0")
 		(property "Reference" "#PWR045"
-			(at 73.66 54.61 0)
+			(at 76.2 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1261,7 +1271,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 52.578 0)
+			(at 76.2 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1271,7 +1281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 48.26 0)
+			(at 76.2 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1282,7 +1292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 48.26 0)
+			(at 76.2 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1293,7 +1303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 48.26 0)
+			(at 76.2 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1317,7 +1327,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 73.66 24.13 0)
+		(at 76.2 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1328,7 +1338,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a0e05aa-caa1-4558-83e6-8a5bcfbc171e")
 		(property "Reference" "J5"
-			(at 77.47 23.1531 0)
+			(at 80.01 29.5031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1339,7 +1349,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 77.47 25.6931 0)
+			(at 80.01 32.0431 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1350,7 +1360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 24.13 0)
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1361,7 +1371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 24.13 0)
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1372,7 +1382,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 73.66 24.13 0)
+			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1399,7 +1409,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 31.75 24.13 0)
+		(at 34.29 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1410,7 +1420,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ea6c762-d5b5-430f-b203-c4111e8829f5")
 		(property "Reference" "J3"
-			(at 35.56 23.1531 0)
+			(at 38.1 29.5031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1421,7 +1431,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 35.56 25.6931 0)
+			(at 38.1 32.0431 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1432,7 +1442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 24.13 0)
+			(at 34.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 24.13 0)
+			(at 34.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1454,7 +1464,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 31.75 24.13 0)
+			(at 34.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1481,7 +1491,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 29.21 0)
+		(at 116.84 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1491,7 +1501,7 @@
 		(dnp no)
 		(uuid "8ecf7b8a-fb50-4748-9a06-9e01ff71ff82")
 		(property "Reference" "#PWR042"
-			(at 114.3 35.56 0)
+			(at 116.84 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1502,7 +1512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 33.528 0)
+			(at 116.84 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1512,7 +1522,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 29.21 0)
+			(at 116.84 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 29.21 0)
+			(at 116.84 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 29.21 0)
+			(at 116.84 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +1568,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 114.3 24.13 0)
+		(at 116.84 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1569,7 +1579,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3c060a4-98ba-4942-b9c4-54cdfc506169")
 		(property "Reference" "J7"
-			(at 118.11 23.1531 0)
+			(at 120.65 29.5031 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1580,7 +1590,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 118.11 25.6931 0)
+			(at 120.65 32.0431 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1591,7 +1601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 24.13 0)
+			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1602,7 +1612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 24.13 0)
+			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +1623,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 114.3 24.13 0)
+			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,7 +1650,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 73.66 43.18 0)
+		(at 76.2 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1651,7 +1661,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5d4ad07-02fa-4409-80be-9ece9c13497d")
 		(property "Reference" "J6"
-			(at 77.47 42.2031 0)
+			(at 80.01 48.5531 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1662,7 +1672,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 77.47 44.7431 0)
+			(at 80.01 51.0931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1673,7 +1683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 43.18 0)
+			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1684,7 +1694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 43.18 0)
+			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,7 +1705,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 73.66 43.18 0)
+			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,7 +1732,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 48.26 0)
+		(at 116.84 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1732,7 +1742,7 @@
 		(dnp no)
 		(uuid "f01460ab-c593-46dd-86c9-af848f3635e5")
 		(property "Reference" "#PWR046"
-			(at 114.3 54.61 0)
+			(at 116.84 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1743,7 +1753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 52.578 0)
+			(at 116.84 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1753,7 +1763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 48.26 0)
+			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +1774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 48.26 0)
+			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1775,7 +1785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 48.26 0)
+			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
