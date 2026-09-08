@@ -2186,7 +2186,7 @@
 		)
 		(uuid "d8368f7c-b345-4c4c-9195-22770cab486e")
 	)
-	(text "Decoupling Caps for 2V5\n(1uF for rail)\n(one pair of 10nF & 100pF as close as possible to each pin)"
+	(text "Decoupling Caps for 2V5\n(1uF for rail)\n(10nF & 100pF as close as possible to each pin)"
 		(exclude_from_sim no)
 		(at 59.944 127.254 0)
 		(effects
@@ -2287,12 +2287,6 @@
 		(uuid "38506a37-b545-456b-89a6-c20fea4830a5")
 	)
 	(junction
-		(at 138.43 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38987f4b-8e25-484f-8959-62f01fa6e4f0")
-	)
-	(junction
 		(at 73.66 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2303,6 +2297,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d1d4546-ef89-4db4-b269-9b7b869d90f5")
+	)
+	(junction
+		(at 138.43 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a91260-a1a9-4e39-8882-0cc4d0bb57b9")
 	)
 	(junction
 		(at 231.14 33.02)
@@ -2836,16 +2836,6 @@
 			(color 0 11 255 1)
 		)
 		(uuid "47d31219-93fa-4002-b6a9-a76d31f04f74")
-	)
-	(wire
-		(pts
-			(xy 132.08 38.1) (xy 138.43 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49e36368-5df4-432e-b499-29a380a469d4")
 	)
 	(wire
 		(pts
@@ -4508,7 +4498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADAR_footprints:LGA-CC-40-7_ADI"
+		(property "Footprint" ""
 			(at 176.53 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -4998,83 +4988,6 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 132.08 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46b7937e-1b28-4a2d-8a50-482d304037d4")
-		(property "Reference" "#PWR04"
-			(at 132.08 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 132.08 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 132.08 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0e12560-4fdd-4ee6-a528-b7c5ab94870f")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6453,7 +6366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 76.2 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6696,7 +6609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 34.29 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7213,6 +7126,83 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 138.43 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe048b98-8d17-4409-aed1-03ba0ae29ba5")
+		(property "Reference" "#PWR04"
+			(at 142.24 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 134.62 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 138.43 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4214e3a7-48db-4b74-bd33-cf73cfc9c3f6")
+		)
+		(instances
+			(project "TX_ADAR"
+				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
