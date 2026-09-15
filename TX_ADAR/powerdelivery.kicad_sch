@@ -3848,7 +3848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "REG1117A_1_8:SOT230P700X180-4N"
+		(property "Footprint" "REG1117A_2_5:SOT230P700X180-4N"
 			(at 139.7 59.69 0)
 			(hide yes)
 			(show_name no)

@@ -16907,7 +16907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FX8_120S_SV_21_:HRS_FX8-120S-SV_21_"
+		(property "Footprint" "footprints:CONN120_FX8-120S-SV_HIR"
 			(at 146.05 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -17345,7 +17345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FX8_120S_SV_21_:HRS_FX8-120S-SV_21_"
+		(property "Footprint" "footprints:CONN120_FX8-120S-SV_HIR"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -18666,7 +18666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "142_1701_831:BEL_142-1701-831"
 			(at 57.15 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -19307,7 +19307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FX8_120S_SV_21_:HRS_FX8-120S-SV_21_"
+		(property "Footprint" "footprints:CONN120_FX8-120S-SV_HIR"
 			(at 195.58 20.32 0)
 			(hide yes)
 			(show_name no)

@@ -4508,7 +4508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ADAR_footprints:LGA-CC-40-7_ADI"
+		(property "Footprint" "ADAR footprints:LGA-CC-40-7_ADI"
 			(at 176.53 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6453,7 +6453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "142_1701_831:BEL_142-1701-831"
 			(at 76.2 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6696,7 +6696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "142_1701_831:BEL_142-1701-831"
 			(at 34.29 158.75 0)
 			(hide yes)
 			(show_name no)
