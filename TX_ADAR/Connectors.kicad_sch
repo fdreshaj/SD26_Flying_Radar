@@ -16907,7 +16907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CONN120_FX8-120S-SV_HIR"
+		(property "Footprint" "120Conn footprints:CONN120_FX8-120S-SV_HIR"
 			(at 146.05 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -17345,7 +17345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CONN120_FX8-120S-SV_HIR"
+		(property "Footprint" "120Conn footprints:CONN120_FX8-120S-SV_HIR"
 			(at 241.3 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -19307,7 +19307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CONN120_FX8-120S-SV_HIR"
+		(property "Footprint" "120Conn footprints:CONN120_FX8-120S-SV_HIR"
 			(at 195.58 20.32 0)
 			(hide yes)
 			(show_name no)
