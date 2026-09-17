@@ -14237,6 +14237,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -14727,9 +14943,9 @@
 		)
 		(uuid "c4aae990-9c11-460a-be33-9560185e33e7")
 	)
-	(text "SMAs for Sequencer Advance"
+	(text "Pin Headers for Sequencer Advance"
 		(exclude_from_sim no)
-		(at 104.648 15.494 0)
+		(at 90.678 15.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16553,7 +16769,7 @@
 	)
 	(hierarchical_label "TxRST"
 		(shape output)
-		(at 83.82 36.83 180)
+		(at 86.36 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16564,7 +16780,7 @@
 	)
 	(hierarchical_label "MADV"
 		(shape output)
-		(at 114.3 20.32 180)
+		(at 86.36 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16619,7 +16835,7 @@
 	)
 	(hierarchical_label "MRST"
 		(shape output)
-		(at 114.3 36.83 180)
+		(at 86.36 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16685,7 +16901,7 @@
 	)
 	(hierarchical_label "TxADV"
 		(shape output)
-		(at 83.82 20.32 180)
+		(at 86.36 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17827,83 +18043,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60bf1dda-92fb-4937-9f52-40a37fd9fd62")
-		(property "Reference" "#PWR012"
-			(at 88.9 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "77abab41-661c-462c-a812-91889193d8e3")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:RJ45_LED_Shielded")
 		(at 80.01 76.2 0)
 		(unit 1)
@@ -18088,6 +18227,94 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 91.44 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7767c59f-f757-42d5-b273-b28c2633c4a4")
+		(property "Reference" "J21"
+			(at 93.98 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 93.98 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 91.44 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "6bf0e528-c4bd-4034-b346-438fcf1230d5")
+		)
+		(pin "3"
+			(uuid "11a81a8e-9044-413f-8819-0a31ace80596")
+		)
+		(pin "1"
+			(uuid "91d57011-e01a-4874-9d9d-2aa3145fda50")
+		)
+		(pin "2"
+			(uuid "0e8419c3-dd82-49c1-975d-cb0b1bb6948a")
+		)
+		(instances
+			(project "TX_ADAR"
+				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -18284,160 +18511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 119.38 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7dd500fe-055c-49f2-b3c3-dbb324efec80")
-		(property "Reference" "#PWR014"
-			(at 119.38 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19e504d2-09a7-4c43-a298-9baa7424f3ab")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80aafbc5-17d4-46a1-8a3e-8b13d86db7db")
-		(property "Reference" "#PWR048"
-			(at 119.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30ae1f78-bb3b-4d23-849a-760c2aff217d")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:RJ45_LED_Shielded")
 		(at 25.4 115.57 0)
 		(unit 1)
@@ -18545,88 +18618,6 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
 					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 88.9 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "828ee511-7112-46c6-a4d1-2800afa392d1")
-		(property "Reference" "J17"
-			(at 92.71 35.8532 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 92.71 38.3932 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
-			(at 88.9 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 88.9 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ccc37cb1-31fd-4da1-89db-f7d60d8008af")
-		)
-		(pin "1"
-			(uuid "3ed5b632-27b9-4be7-9332-70e311185bae")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -18945,329 +18936,6 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab63fdab-a690-494c-81e2-42ce3a87c978")
-		(property "Reference" "#PWR013"
-			(at 88.9 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "275a63bc-e5f8-4ab5-ae11-f0fd9ff012a5")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 88.9 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acedd8e7-a8ab-4f10-ac60-2e484c792493")
-		(property "Reference" "J13"
-			(at 92.71 19.3432 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 92.71 21.8832 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
-			(at 88.9 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 88.9 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "60e95ada-f614-4694-9420-38321d41a8b8")
-		)
-		(pin "1"
-			(uuid "3763e37a-47bc-4746-ac98-8738cf2431e3")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 119.38 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0c6210c-d08e-48bb-80d9-1a020a89cfbe")
-		(property "Reference" "J18"
-			(at 123.19 35.8532 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 123.19 38.3932 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
-			(at 119.38 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 119.38 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "92d7a98c-f317-4008-85bc-c0ce72943f46")
-		)
-		(pin "1"
-			(uuid "f4c80d98-3957-437a-adb0-894cded991c7")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 119.38 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c64152c2-7a35-432c-b7f4-9757d2057fb6")
-		(property "Reference" "J14"
-			(at 123.19 19.3432 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 123.19 21.8832 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
-			(at 119.38 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 119.38 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2ad30f3a-e52d-4784-9a0d-01ab7176cf5f")
-		)
-		(pin "1"
-			(uuid "3c41777f-a8b4-4d47-a930-d974de972024")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "J14")
 					(unit 1)
 				)
 			)

@@ -783,156 +783,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1556,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 82.55) (xy 237.49 86.36)
+			(xy 237.49 59.69) (xy 237.49 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1641,16 +1491,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 82.55) (xy 162.56 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b72d9f-802c-43f9-8890-0277294936e9")
-	)
-	(wire
-		(pts
 			(xy 189.23 69.85) (xy 226.06 69.85)
 		)
 		(stroke
@@ -1725,16 +1565,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 59.69) (xy 237.49 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba49ae0f-2803-40b9-86ad-ac0395739e03")
-	)
-	(wire
-		(pts
 			(xy 172.72 26.67) (xy 191.77 26.67)
 		)
 		(stroke
@@ -1799,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 59.69) (xy 162.56 72.39)
+			(xy 162.56 59.69) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +1831,7 @@
 	)
 	(hierarchical_label "TxRST Out"
 		(shape output)
-		(at 162.56 86.36 270)
+		(at 162.56 76.2 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2034,7 +1864,7 @@
 	)
 	(hierarchical_label "MRST Out"
 		(shape output)
-		(at 237.49 86.36 270)
+		(at 237.49 76.2 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2109,7 +1939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.0552 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2281,7 +2111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.6252 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2361,7 +2191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "100SP1T1B4M2QE:SW_100SP1T1B4M2QE"
 			(at 30.48 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2536,7 +2366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 210.5152 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2585,89 +2415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 237.49 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3eff986d-0848-48fb-aeb5-36028291ceda")
-		(property "Reference" "SW7"
-			(at 238.76 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 238.76 78.7399 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 237.49 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b1278f0-93ec-4bf5-9fe8-3870903ff988")
-		)
-		(pin "2"
-			(uuid "aa08e809-2893-4dc4-ac10-a34232159095")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/81ed6aba-4ce9-46a8-9f2a-cfb086f29798"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 133.35 38.1 0)
 		(unit 1)
@@ -2700,7 +2447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.3152 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -2781,7 +2528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 122.8852 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3030,7 +2777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 199.0852 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3111,7 +2858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 162.2552 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3160,89 +2907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 162.56 77.47 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0f9ad11-c015-4f4e-93b0-94556e3475e4")
-		(property "Reference" "SW6"
-			(at 163.83 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 163.83 78.7399 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 162.56 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9813c9c4-c6f2-4581-9d04-c2b4821e75ad")
-		)
-		(pin "2"
-			(uuid "5ff8eff0-9589-4022-80f0-5bf0bf6935f9")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/81ed6aba-4ce9-46a8-9f2a-cfb086f29798"
-					(reference "SW6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 172.72 38.1 0)
 		(unit 1)
@@ -3275,7 +2939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 173.6852 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3513,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 39.37 31.75 0)
 			(hide yes)
 			(show_name no)

@@ -1563,170 +1563,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+1V8"
 			(power global)
 			(pin_numbers
@@ -2165,16 +2001,6 @@
 			)
 		)
 		(uuid "c99dcbc7-8555-4f68-83dd-8fad4c35c2b5")
-	)
-	(text "Sequencer\nReset Button"
-		(exclude_from_sim no)
-		(at 73.914 97.028 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d456e66f-a6af-432e-a4a4-1ab6d68aeb5a")
 	)
 	(text "Thru Cal Line\nLength = 2 x RF Output"
 		(exclude_from_sim no)
@@ -2952,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 101.6) (xy 82.55 106.68)
+			(xy 82.55 87.63) (xy 82.55 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 87.63) (xy 85.09 91.44)
+			(xy 85.09 87.63) (xy 85.09 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3658,16 +3484,6 @@
 			(type default)
 		)
 		(uuid "f6a37611-d3f4-47ca-afa3-51314f92b513")
-	)
-	(wire
-		(pts
-			(xy 82.55 87.63) (xy 82.55 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f802b579-d31b-4530-9107-f6258cbf5484")
 	)
 	(wire
 		(pts
@@ -3728,16 +3544,6 @@
 			(type default)
 		)
 		(uuid "fcf1618b-117c-41b2-bdf4-16bb2002e831")
-	)
-	(wire
-		(pts
-			(xy 85.09 101.6) (xy 85.09 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd681fcb-ee1a-4854-98bb-e4b746c9e968")
 	)
 	(wire
 		(pts
@@ -3892,7 +3698,7 @@
 		(uuid "3d8504cb-5c6a-45e1-bebd-42e7ebd503fd")
 	)
 	(label "TxRST"
-		(at 82.55 106.68 90)
+		(at 82.55 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4004,7 +3810,7 @@
 		(uuid "8ec918ec-0286-437a-820c-e07e1555502c")
 	)
 	(label "MRST"
-		(at 85.09 106.68 90)
+		(at 85.09 96.52 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4197,7 +4003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.3952 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4717,7 +4523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.4952 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4843,86 +4649,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 82.55 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34075af7-096f-4549-a4eb-9aa680382bd3")
-		(property "Reference" "SW5"
-			(at 78.486 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 77.47 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 82.55 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cc69690a-2708-4118-b079-43959143eeaf")
-		)
-		(pin "1"
-			(uuid "8e108ac6-bd71-4de8-adb7-637b78cbf7be")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 109.22 134.62 0)
 		(unit 1)
@@ -4955,7 +4681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.1852 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5269,7 +4995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 61.9252 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5584,7 +5310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 74.6252 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5742,7 +5468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 152.0952 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5823,7 +5549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.41 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5904,7 +5630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 37.7952 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6218,7 +5944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6534,7 +6260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 16.2052 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6577,86 +6303,6 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 85.09 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c044271a-6a2e-4118-a4a6-8ae0a778e106")
-		(property "Reference" "SW8"
-			(at 89.154 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 90.17 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 85.09 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0545de6b-953e-4d49-b7a8-90d1d533ae98")
-		)
-		(pin "1"
-			(uuid "3258a787-a71c-418d-ac7e-5c9e3d00a964")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
-					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -6854,7 +6500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 26.3652 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7012,7 +6658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.0552 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7170,7 +6816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 98.7552 138.43 0)
 			(hide yes)
 			(show_name no)
