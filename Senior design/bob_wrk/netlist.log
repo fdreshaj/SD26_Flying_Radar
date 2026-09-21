@@ -1,0 +1,26 @@
+; Top Design: "bob_lib:resistor divider:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="bob_lib:resistor divider:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+R:R1  N__0 N__7 R=30 Ohm Noise=yes 
+R:R2  N__7 N__2 R=30 Ohm Noise=yes 
+R:R3  N__7 N__4 R=30 Ohm Noise=yes 
+R:R4  N__7 N__6 R=30 Ohm Noise=yes 
+Port:Term1  N__0 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__2 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term3  N__4 0 Num=3 Z=50 Ohm Noise=yes 
+Port:Term4  N__6 0 Num=4 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=20 GHz Stop=40 GHz Step=10 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
