@@ -2131,6 +2131,12 @@
 		(uuid "3d1d4546-ef89-4db4-b269-9b7b869d90f5")
 	)
 	(junction
+		(at 90.17 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "414985c4-ffaa-4db9-ab57-bae844ef8bef")
+	)
+	(junction
 		(at 231.14 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2219,12 +2225,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a307eafb-ad31-45b5-b7ff-e782a3ff8ff7")
-	)
-	(junction
-		(at 90.17 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a44de050-affa-443f-9bfa-8e63734aab48")
 	)
 	(junction
 		(at 231.14 68.58)
@@ -2344,6 +2344,16 @@
 			(type default)
 		)
 		(uuid "08cfbb9e-5250-44c2-b682-14d8a4fb8639")
+	)
+	(wire
+		(pts
+			(xy 91.44 31.75) (xy 90.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09daad74-53a9-452a-b0a0-9536d98f9129")
 	)
 	(wire
 		(pts
@@ -2490,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 31.75) (xy 90.17 62.23)
+			(xy 91.44 31.75) (xy 91.44 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 87.63 62.23)
+			(xy 91.44 62.23) (xy 87.63 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2958,6 +2968,16 @@
 			(type default)
 		)
 		(uuid "8d85219c-f28d-4ad3-844d-0f708deb3e11")
+	)
+	(wire
+		(pts
+			(xy 88.9 34.29) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbe1c51-4919-4ee9-9df7-7be86285611f")
 	)
 	(wire
 		(pts
@@ -3224,6 +3244,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 64.77) (xy 88.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88fdb71-50a5-4754-9fe5-af49369e8949")
+	)
+	(wire
+		(pts
 			(xy 231.14 33.02) (xy 227.33 33.02)
 		)
 		(stroke
@@ -3281,6 +3311,16 @@
 			(type default)
 		)
 		(uuid "c6116f9a-13f6-4e15-b176-ba68ae6307ad")
+	)
+	(wire
+		(pts
+			(xy 87.63 34.29) (xy 88.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a293fb-e891-4962-b956-a15a70650cd5")
 	)
 	(wire
 		(pts
@@ -7043,6 +7083,16 @@
 				(justify left)
 			)
 		)
+		(pin "OE" output
+			(at 87.63 34.29 0)
+			(uuid "ececeae2-f7ac-4d97-9233-dc27f0717baa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
@@ -7402,6 +7452,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "OE" input
+			(at 87.63 64.77 0)
+			(uuid "46321e4a-fd02-455a-ba24-6146aae35e20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

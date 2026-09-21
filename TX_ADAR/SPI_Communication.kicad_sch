@@ -2250,16 +2250,6 @@
 		(uuid "2e64c0c9-25a7-4f1a-a6a1-33c499daa12b")
 	)
 	(label "OE"
-		(at 17.78 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b238e6b-aa28-4bde-b361-88c89e98b3e6")
-	)
-	(label "OE"
 		(at 40.64 54.61 180)
 		(effects
 			(font
@@ -2407,6 +2397,17 @@
 			(justify right)
 		)
 		(uuid "8ad303f6-80ef-47ff-be9c-9a243eb91c11")
+	)
+	(hierarchical_label "OE"
+		(shape output)
+		(at 17.78 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93fa2477-2b80-43c4-924a-228ed2f267de")
 	)
 	(hierarchical_label "3V3SDIO2"
 		(shape input)
