@@ -2131,10 +2131,10 @@
 		(uuid "3d1d4546-ef89-4db4-b269-9b7b869d90f5")
 	)
 	(junction
-		(at 90.17 31.75)
+		(at 91.44 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "414985c4-ffaa-4db9-ab57-bae844ef8bef")
+		(uuid "471170b4-eda0-49f1-af5e-9afa04390bbe")
 	)
 	(junction
 		(at 231.14 33.02)
@@ -2344,16 +2344,6 @@
 			(type default)
 		)
 		(uuid "08cfbb9e-5250-44c2-b682-14d8a4fb8639")
-	)
-	(wire
-		(pts
-			(xy 91.44 31.75) (xy 90.17 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09daad74-53a9-452a-b0a0-9536d98f9129")
 	)
 	(wire
 		(pts
@@ -3455,7 +3445,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 31.75) (xy 87.63 31.75)
+			(xy 87.63 31.75) (xy 91.44 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4237,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 90.17 31.75 0)
+		(at 91.44 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4257,7 +4247,7 @@
 		(dnp no)
 		(uuid "114481ef-4eb5-431b-b01f-13d34611876e")
 		(property "Reference" "#PWR02"
-			(at 90.17 35.56 0)
+			(at 91.44 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4268,7 +4258,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 90.17 27.94 0)
+			(at 91.44 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4278,7 +4268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 31.75 0)
+			(at 91.44 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 31.75 0)
+			(at 91.44 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4300,7 +4290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 90.17 31.75 0)
+			(at 91.44 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
