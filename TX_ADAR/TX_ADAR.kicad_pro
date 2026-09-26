@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.95,
-          "width": 1.075
+          "drill": 1.68,
+          "height": 2.52,
+          "width": 2.52
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -61,9 +61,9 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 9.99999999996,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -546,7 +546,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/RFOut3+"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -689,7 +694,7 @@
         "uuid": "5bb7bcfe-c6dc-48dd-b109-2cc47fd52212"
       }
     ],
-    "used_designators": "H1-4,10uF1,1uF1,U1-20,#PWR1-56,0.01uF1,C1-46,TP1-6,#FLG1-2,#FLG4-7,R1-6,J1-21,D1,SW1-11,P1,IC1-2",
+    "used_designators": "H1-4,10uF1,1uF1,U1-20,#PWR1-56,0.01uF1,C1-46,TP1-6,#FLG1-2,#FLG4-7,R1-11,J1-21,D1,SW1-11,P1,IC1-2",
     "variants": []
   },
   "sheets": [
