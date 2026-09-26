@@ -646,7 +646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 158.75 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -805,7 +805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 158.75 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1118,7 +1118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 116.84 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -1200,7 +1200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 34.29 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -1359,7 +1359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1441,7 +1441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 34.29 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1600,7 +1600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1682,7 +1682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 76.2 49.53 0)
 			(hide yes)
 			(show_name no)

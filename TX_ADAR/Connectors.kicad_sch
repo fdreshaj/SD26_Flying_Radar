@@ -18955,7 +18955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "142_1701_831:BEL_142-1701-831"
+		(property "Footprint" "CON292001_1:TE_CON292001-1"
 			(at 66.04 19.05 0)
 			(hide yes)
 			(show_name no)
