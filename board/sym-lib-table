@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mylib")(type "KiCad")(uri "U:/EE418/kicad/HMC586LC4BTR/KiCADv6/mylib.kicad_sym")(options "")(descr ""))
+)
