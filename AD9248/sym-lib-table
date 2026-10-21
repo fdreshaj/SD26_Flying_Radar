@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "2026-10-21_18-41-16")(type "KiCad")(uri "${KIPRJMOD}/parts/AD9284BCPZ_250/2026-10-21_18-41-16.kicad_sym")(options "")(descr ""))
+  (lib (name "TLV70018DCKR")(type "KiCad")(uri "${KIPRJMOD}/parts/TLV70018DCKR/TLV70018DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "AD9248")(type "KiCad")(uri "${KIPRJMOD}/parts/AD9284BCPZ_250/AD9248.kicad_sym")(options "")(descr ""))
+  (lib (name "GCM188R71E105KA64D")(type "KiCad")(uri "${KIPRJMOD}/parts/GCM188R71E105KA64D/GCM188R71E105KA64D.kicad_sym")(options "")(descr ""))
+  (lib (name "C0603C104K5RACTU")(type "KiCad")(uri "${KIPRJMOD}/parts/C0603C104K5RACTU/C0603C104K5RACTU.kicad_sym")(options "")(descr ""))
 )
