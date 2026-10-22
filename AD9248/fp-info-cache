@@ -1,4 +1,4 @@
-27246517384390249
+27260858602910152
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107919,6 +107919,13 @@ C0603C104K5RACTU
 2
 2
 part_library
+CONN_PPPC062LJBN-RC_SUL
+
+PPPC062LJBN-RC 
+0
+12
+12
+part_library
 GCM188R71E105KA64D
 
 GCM188R71E105KA64D 
@@ -107926,9 +107933,58 @@ GCM188R71E105KA64D
 2
 2
 part_library
+GRM3195C1H104JA05D
+
+GRM3195C1H104JA05D 
+0
+2
+2
+part_library
+RC1206FR_0733RL
+
+RC1206FR-0733RL 
+0
+2
+2
+part_library
+RNCF1206BKT50R0
+
+RNCF1206BKT50R0 
+0
+2
+2
+part_library
+SOIC-16W_7.5x10.3mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-013AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/rw_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+part_library
+SOIC16
+
+
+0
+16
+16
+part_library
+TE_CON292001-1
+
+
+0
+4
+4
+part_library
 TLV70018DCKR
 
 TLV70018DCKR 
 0
 5
 5
+part_library
+TXB0101DBVR
+
+TXB0101DBVR 
+0
+6
+6
