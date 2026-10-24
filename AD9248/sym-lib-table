@@ -12,4 +12,8 @@
   (lib (name "TXB0101DBVR")(type "KiCad")(uri "${KIPRJMOD}/parts/TXB0101DBVR/TXB0101DBVR.kicad_sym")(options "")(descr ""))
   (lib (name "DS9")(type "KiCad")(uri "${KIPRJMOD}/parts/DS9/DS9.kicad_sym")(options "")(descr ""))
   (lib (name "CON292001-1")(type "KiCad")(uri "${KIPRJMOD}/parts/CON292001-1/CON292001-1.kicad_sym")(options "")(descr ""))
+  (lib (name "GRM188R60J106ME47D")(type "KiCad")(uri "${KIPRJMOD}/parts/GRM188R60J106ME47D/GRM188R60J106ME47D.kicad_sym")(options "")(descr ""))
+  (lib (name "C0603C102K5RACTU")(type "KiCad")(uri "${KIPRJMOD}/parts/C0603C102K5RACTU/C0603C102K5RACTU.kicad_sym")(options "")(descr ""))
+  (lib (name "RMCF1206FG100R")(type "KiCad")(uri "${KIPRJMOD}/parts/RMCF1206FG100R/RMCF1206FG100R.kicad_sym")(options "")(descr ""))
+  (lib (name "ADA4937_1YCPZ_R7")(type "KiCad")(uri "${KIPRJMOD}/parts/ADA4937_1YCPZ_R7/ADA4937_1YCPZ_R7.kicad_sym")(options "")(descr ""))
 )

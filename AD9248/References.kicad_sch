@@ -1,0 +1,73 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "97faf762-e0fe-4bce-9b7f-66e22971d616")
+	(paper "A4")
+	(lib_symbols)
+	(text "DATASHEETS, USER MANUALS, AND REFERENCES"
+		(exclude_from_sim no)
+		(at 64.516 21.082 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "90e38b96-433d-486c-a56f-d36851625f38")
+	)
+	(text "[2] Basys 3 Reference Manual : https://digilent.com/reference/programmable-logic/basys-3/reference-manual"
+		(exclude_from_sim no)
+		(at 103.632 36.068 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://digilent.com/reference/programmable-logic/basys-3/reference-manual")
+		)
+		(uuid "ac8e610f-5c62-432d-a73c-8524b3c51664")
+	)
+	(text "[4] DS90LV048A LVDS driver : https://www.ti.com/lit/ds/symlink/ds90lv048a.pdf?ts=1792865808432"
+		(exclude_from_sim no)
+		(at 94.996 47.244 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://www.ti.com/lit/ds/symlink/ds90lv048a.pdf?ts=1792865808432")
+		)
+		(uuid "bd752514-4c0b-4847-b8c3-8e2d70ff6022")
+	)
+	(text "[3] FPGA (Artix 7 XC7A35T) Datasheet : https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet"
+		(exclude_from_sim no)
+		(at 94.996 41.402 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet")
+		)
+		(uuid "d1183ac6-6c62-4c50-9513-71ba91f2b06a")
+	)
+	(text "[1] AD9284 8 bit ADC datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/ad9284.pdf "
+		(exclude_from_sim no)
+		(at 109.474 30.988 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://www.analog.com/media/en/technical-documentation/data-sheets/ad9284.pdf")
+		)
+		(uuid "d4bdce63-d41a-4d3f-b3bc-afe1bf7fc5dc")
+	)
+	(text "[5] TLV700 LDO : https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1792804791454"
+		(exclude_from_sim no)
+		(at 82.296 53.34 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1792804791454")
+		)
+		(uuid "ff0285ab-4944-461c-af39-1a25bfd25a39")
+	)
+)
