@@ -5,6 +5,17 @@
 	(uuid "97faf762-e0fe-4bce-9b7f-66e22971d616")
 	(paper "A4")
 	(lib_symbols)
+	(text "[6] TXB0101 Level Shifter : https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1792804791454"
+		(exclude_from_sim no)
+		(at 89.662 58.928 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(href "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1792804791454")
+		)
+		(uuid "51d2a483-3179-48ff-9aee-cb147fb633b5")
+	)
 	(text "DATASHEETS, USER MANUALS, AND REFERENCES"
 		(exclude_from_sim no)
 		(at 64.516 21.082 0)

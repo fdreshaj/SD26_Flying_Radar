@@ -615,7 +615,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/home/aidan-o-grady/Documents/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -632,12 +632,24 @@
       "Root"
     ],
     [
-      "f9e904c2-b37d-4f90-8e9f-e61a7faacbc1",
-      "ADC_unit"
+      "090bf66c-3a30-4fe9-9ea2-31b401daa100",
+      "Top Level"
+    ],
+    [
+      "36a92f74-7712-439b-b33a-544fb8af1339",
+      "Power Supply and ADC Bypassing"
+    ],
+    [
+      "fd3f6832-8c26-46bc-aa37-323f8b9d3294",
+      "ADC Unit"
     ],
     [
       "65c12e43-9f9e-46e2-8a8a-762ab2f700ee",
       "References"
+    ],
+    [
+      "dec9ab76-896a-4f46-b406-ec7c2c844187",
+      "SPI Level Shifting"
     ]
   ],
   "text_variables": {}

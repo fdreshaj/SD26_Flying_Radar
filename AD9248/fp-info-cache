@@ -1,4 +1,4 @@
-27260858602910152
+27275201956388482
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107905,12 +107905,54 @@ Varistor VF
 2
 2
 part_library
+06031AR47CAT2A
+
+06031AR47CAT2A 
+0
+2
+2
+part_library
+AD8052ARMZ_REEL7
+
+AD8052ARMZ-REEL7 
+0
+8
+8
+part_library
 AD9284
 
 AD9284BCPZ-250 
 0
 49
 49
+part_library
+ADA4857_1YCPZ_R7
+
+ADA4857-1YCPZ-R7 
+0
+9
+9
+part_library
+ADA4857_2YCPZ_R7
+
+ADA4857-2YCPZ-R7 
+0
+17
+17
+part_library
+ADA4937_1YCPZ_R7
+
+ADA4937-1YCPZ-R7 
+0
+17
+17
+part_library
+C0603C102K5RACTU
+
+C0603C102K5RACTU 
+0
+2
+2
 part_library
 C0603C104K5RACTU
 
@@ -107933,6 +107975,13 @@ GCM188R71E105KA64D
 2
 2
 part_library
+GRM188R60J106ME47D
+
+GRM188R60J106ME47D 
+0
+2
+2
+part_library
 GRM3195C1H104JA05D
 
 GRM3195C1H104JA05D 
@@ -107943,6 +107992,13 @@ part_library
 RC1206FR_0733RL
 
 RC1206FR-0733RL 
+0
+2
+2
+part_library
+RMCF1206FG100R
+
+RMCF1206FG100R 
 0
 2
 2
