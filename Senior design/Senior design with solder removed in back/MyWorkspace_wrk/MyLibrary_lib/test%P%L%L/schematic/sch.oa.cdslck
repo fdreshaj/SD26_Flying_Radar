@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      rfeist
+HostName                       CO2011-10.ece.iastate.edu
+ProcessIdentifier              20256
+ProcessCreationTime_UTC        1790727858
+ProcessCreationTime_Readable   Tue Sep 29 19:24:18 2026 Central Daylight Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         U:\Senior design\MyWorkspace_wrk\MyLibrary_lib\test%P%L%L\schematic\sch.oa.cdslck
+TimeEditLocked                 Tue Sep 29 19:25:42 2026 Central Daylight Time

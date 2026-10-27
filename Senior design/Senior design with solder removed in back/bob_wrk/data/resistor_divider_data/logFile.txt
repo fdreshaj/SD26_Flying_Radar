@@ -1,0 +1,24 @@
+
+hpeesofsim (*) 640.shp Mar 23 2026, MINT version 5
+    (64-bit windows built: Tue Mar 24, 2026 04:31:30 +0000)
+
+***** Simulation started at Wed Aug 26 21:10:53 2026
+      Running on host: "CO2011-10"
+      In Directory: "U:\Senior design\bob_wrk\data"
+      Process ID: 2004
+
+
+SP SP1[1] <bob_lib:resistor divider:schematic>   freq=(20 GHz->40 GHz)
+
+
+Resource usage:
+    Total CPU time            =     1.23 seconds.
+    Simulation stopwatch time =     0.17 seconds.
+    Total stopwatch time      =    33.07 seconds.
+
+    Memory used:  126 MBytes
+
+    Max threads used:  45
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+

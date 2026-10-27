@@ -1,0 +1,32 @@
+
+hpeesofsim (*) 640.shp Mar 23 2026, MINT version 5
+    (64-bit windows built: Tue Mar 24, 2026 04:31:30 +0000)
+
+***** Simulation started at Tue Sep 29 19:46:48 2026
+      Running on host: "CO2011-10"
+      In Directory: "U:\Senior design\MyWorkspace_wrk\data"
+      Process ID: 21508
+
+Warning detected by hpeesofsim during circuit set up.
+    Capacitor `VCO2.CMP1' C=1 is unusually large.
+
+Warning detected by hpeesofsim during circuit set up.
+    Capacitor `VCO1.CMP1' C=1 is unusually large.
+
+.
+
+
+TRAN Tran1[1] <MyLibrary_lib:testPLL:schematic>   time=(0 s->100 ns)
+t=1.000e-07  100%
+
+Resource usage:
+    Total CPU time            =     0.91 seconds.
+    Simulation stopwatch time =     0.30 seconds.
+    Total stopwatch time      =     1.01 seconds.
+
+    Memory used:  114 MBytes
+
+    Max threads used:  42
+        (NOTE: max threads includes very-low-CPU-usage support threads,
+         as well as high-CPU-usage computational threads.)
+
