@@ -577,12 +577,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -636,20 +648,32 @@
       "Top Level"
     ],
     [
-      "36a92f74-7712-439b-b33a-544fb8af1339",
-      "Power Supply and ADC Bypassing"
-    ],
-    [
       "fd3f6832-8c26-46bc-aa37-323f8b9d3294",
       "ADC Unit"
     ],
     [
-      "65c12e43-9f9e-46e2-8a8a-762ab2f700ee",
-      "References"
+      "a761bd70-0f93-48cd-880d-a1a5c7d66a93",
+      "Power Supply and ADC Bypassing"
     ],
     [
-      "dec9ab76-896a-4f46-b406-ec7c2c844187",
+      "019371b3-a31b-4c47-a470-db198bb89791",
       "SPI Level Shifting"
+    ],
+    [
+      "ffc40f9a-a2b0-4307-9a3c-f8d56935cca3",
+      "Differential Output Conversion"
+    ],
+    [
+      "87a0e342-7d8e-47a2-997c-11371f00bbeb",
+      "Differential Signal Drivers"
+    ],
+    [
+      "885dc6c6-ad77-4338-8134-50550e331b74",
+      "AD8051 Sallen Key Filter Simulation"
+    ],
+    [
+      "65c12e43-9f9e-46e2-8a8a-762ab2f700ee",
+      "References"
     ]
   ],
   "text_variables": {}

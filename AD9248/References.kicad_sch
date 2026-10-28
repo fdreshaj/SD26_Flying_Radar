@@ -37,9 +37,9 @@
 		)
 		(uuid "ac8e610f-5c62-432d-a73c-8524b3c51664")
 	)
-	(text "[4] DS90LV048A LVDS driver : https://www.ti.com/lit/ds/symlink/ds90lv048a.pdf?ts=1792865808432"
+	(text "[4] DS90LV048A LVDS to Single Ended Converter : https://www.ti.com/lit/ds/symlink/ds90lv048a.pdf?ts=1792865808432"
 		(exclude_from_sim no)
-		(at 94.996 47.244 0)
+		(at 109.982 46.99 0)
 		(effects
 			(font
 				(size 1.905 1.905)

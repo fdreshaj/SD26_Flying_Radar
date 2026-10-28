@@ -11,9 +11,30 @@
 		(company "SD26-11 - Aidan O'Grady")
 	)
 	(lib_symbols)
+	(text "(9)"
+		(exclude_from_sim no)
+		(at 193.167 116.332 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(href "#9")
+		)
+		(uuid "0474307b-4064-410d-8dd9-9a157c059163")
+	)
+	(text "TODO: Fix SPI level shifting OE pin (Must not ramp up immediately)\n"
+		(exclude_from_sim no)
+		(at 50.546 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c05da68-4a49-46a0-89b1-d78c93ac082d")
+	)
 	(text "(1)"
 		(exclude_from_sim no)
-		(at 162.306 98.552 0)
+		(at 193.167 84.582 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -24,7 +45,7 @@
 	)
 	(text "(5)"
 		(exclude_from_sim no)
-		(at 162.306 113.792 0)
+		(at 193.167 99.822 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -33,9 +54,31 @@
 		)
 		(uuid "36ceec81-256e-4cd6-972e-7c3d422626e7")
 	)
+	(text "(7)"
+		(exclude_from_sim no)
+		(at 193.167 107.188 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(href "#7")
+		)
+		(uuid "3b78c649-3147-4d9e-8fbc-84a1df2e4a17")
+	)
+	(text "(8)"
+		(exclude_from_sim no)
+		(at 193.167 111.76 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(href "#8")
+		)
+		(uuid "73ac618a-b468-40f4-9a6a-9a01a9d88fb8")
+	)
 	(text "(2)"
 		(exclude_from_sim no)
-		(at 162.306 102.362 0)
+		(at 193.167 88.392 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -44,9 +87,20 @@
 		)
 		(uuid "86ac9c87-e7ea-4b83-a4d0-93bc7eec1777")
 	)
+	(text "(6)"
+		(exclude_from_sim no)
+		(at 193.167 103.378 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(href "#6")
+		)
+		(uuid "c196b376-076a-43dd-98d1-15f037a57ea6")
+	)
 	(text "(3)"
 		(exclude_from_sim no)
-		(at 162.306 106.172 0)
+		(at 193.167 92.202 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -57,7 +111,7 @@
 	)
 	(text "Table of contents"
 		(exclude_from_sim no)
-		(at 32.258 17.78 0)
+		(at 150.368 5.334 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -67,7 +121,7 @@
 	)
 	(text "(4)"
 		(exclude_from_sim no)
-		(at 162.306 109.982 0)
+		(at 193.167 96.012 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -94,12 +148,12 @@
 				(type solid)
 			)
 		)
-		(column_widths 6.35 50.8 5.334)
-		(row_heights 3.81 3.81 3.81 3.81 3.81)
+		(column_widths 6.35 86.995 17.399)
+		(row_heights 3.81 3.81 3.81 3.81 3.81 3.81 3.81 4.572 4.572)
 		(cells
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 102.616 96.52 0)
+				(at 91.44 82.55 0)
 				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -116,8 +170,8 @@
 			)
 			(table_cell "Table of contents"
 				(exclude_from_sim no)
-				(at 108.966 96.52 0)
-				(size 50.8 3.81)
+				(at 97.79 82.55 0)
+				(size 86.995 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -133,8 +187,8 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 159.766 96.52 0)
-				(size 5.334 3.81)
+				(at 184.785 82.55 0)
+				(size 17.399 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -150,7 +204,7 @@
 			)
 			(table_cell "2"
 				(exclude_from_sim no)
-				(at 102.616 100.33 0)
+				(at 91.44 86.36 0)
 				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -167,8 +221,8 @@
 			)
 			(table_cell "Top Level & Connections"
 				(exclude_from_sim no)
-				(at 108.966 100.33 0)
-				(size 50.8 3.81)
+				(at 97.79 86.36 0)
+				(size 86.995 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -184,8 +238,8 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 159.766 100.33 0)
-				(size 5.334 3.81)
+				(at 184.785 86.36 0)
+				(size 17.399 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -201,7 +255,7 @@
 			)
 			(table_cell "3"
 				(exclude_from_sim no)
-				(at 102.616 104.14 0)
+				(at 91.44 90.17 0)
 				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -216,10 +270,10 @@
 				)
 				(uuid "673249f0-8223-4ab6-a3a2-430375adf03f")
 			)
-			(table_cell "Power Supply"
+			(table_cell "ADC Unit"
 				(exclude_from_sim no)
-				(at 108.966 104.14 0)
-				(size 50.8 3.81)
+				(at 97.79 90.17 0)
+				(size 86.995 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -235,8 +289,8 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 159.766 104.14 0)
-				(size 5.334 3.81)
+				(at 184.785 90.17 0)
+				(size 17.399 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -252,7 +306,7 @@
 			)
 			(table_cell "4"
 				(exclude_from_sim no)
-				(at 102.616 107.95 0)
+				(at 91.44 93.98 0)
 				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -267,10 +321,10 @@
 				)
 				(uuid "3db61283-efff-4546-afdb-fc70058eb803")
 			)
-			(table_cell "ADC Module"
+			(table_cell "Power Supply and ADC Bypassing"
 				(exclude_from_sim no)
-				(at 108.966 107.95 0)
-				(size 50.8 3.81)
+				(at 97.79 93.98 0)
+				(size 86.995 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -286,8 +340,8 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 159.766 107.95 0)
-				(size 5.334 3.81)
+				(at 184.785 93.98 0)
+				(size 17.399 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -303,7 +357,7 @@
 			)
 			(table_cell "5"
 				(exclude_from_sim no)
-				(at 102.616 111.76 0)
+				(at 91.44 97.79 0)
 				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -318,10 +372,10 @@
 				)
 				(uuid "fe33f72c-ddea-4801-9e98-a220ea7276ca")
 			)
-			(table_cell "References"
+			(table_cell "SPI Level Shifting"
 				(exclude_from_sim no)
-				(at 108.966 111.76 0)
-				(size 50.8 3.81)
+				(at 97.79 97.79 0)
+				(size 86.995 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -337,8 +391,212 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 159.766 111.76 0)
-				(size 5.334 3.81)
+				(at 184.785 97.79 0)
+				(size 17.399 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "49499087-699d-43ca-b1da-89cfb69c3e88")
+			)
+			(table_cell "6"
+				(exclude_from_sim no)
+				(at 91.44 101.6 0)
+				(size 6.35 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "49499087-699d-43ca-b1da-89cfb69c3e88")
+			)
+			(table_cell "Differential Output Conversion"
+				(exclude_from_sim no)
+				(at 97.79 101.6 0)
+				(size 86.995 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "0a2a35bb-ba9d-43bc-b0b4-3648ed1d59bb")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 184.785 101.6 0)
+				(size 17.399 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "fe33f72c-ddea-4801-9e98-a220ea7276ca")
+			)
+			(table_cell "7"
+				(exclude_from_sim no)
+				(at 91.44 105.41 0)
+				(size 6.35 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "fe33f72c-ddea-4801-9e98-a220ea7276ca")
+			)
+			(table_cell "Differential Signal Drivers"
+				(exclude_from_sim no)
+				(at 97.79 105.41 0)
+				(size 86.995 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "0a2a35bb-ba9d-43bc-b0b4-3648ed1d59bb")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 184.785 105.41 0)
+				(size 17.399 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "49499087-699d-43ca-b1da-89cfb69c3e88")
+			)
+			(table_cell "8"
+				(exclude_from_sim no)
+				(at 91.44 109.22 0)
+				(size 6.35 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "49499087-699d-43ca-b1da-89cfb69c3e88")
+			)
+			(table_cell "AD8051 Sallen Key Filter Simulation (QUCS-S)"
+				(exclude_from_sim no)
+				(at 97.79 109.22 0)
+				(size 86.995 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "0a2a35bb-ba9d-43bc-b0b4-3648ed1d59bb")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 184.785 109.22 0)
+				(size 17.399 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "fe33f72c-ddea-4801-9e98-a220ea7276ca")
+			)
+			(table_cell "9"
+				(exclude_from_sim no)
+				(at 91.44 113.792 0)
+				(size 6.35 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "fe33f72c-ddea-4801-9e98-a220ea7276ca")
+			)
+			(table_cell "References"
+				(exclude_from_sim no)
+				(at 97.79 113.792 0)
+				(size 86.995 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "0a2a35bb-ba9d-43bc-b0b4-3648ed1d59bb")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 184.785 113.792 0)
+				(size 17.399 4.572)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -355,8 +613,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 99.06)
-		(size 12.7 3.81)
+		(at 153.67 136.525)
+		(size 13.335 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -371,7 +629,7 @@
 		)
 		(uuid "090bf66c-3a30-4fe9-9ea2-31b401daa100")
 		(property "Sheetname" "Top Level"
-			(at 177.8 98.3484 0)
+			(at 153.67 135.8134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +638,7 @@
 			)
 		)
 		(property "Sheetfile" "top_level.kicad_sch"
-			(at 177.8 103.4546 0)
+			(at 153.67 140.9196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,7 +655,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 109.22)
+		(at 114.935 136.525)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -413,7 +671,7 @@
 		)
 		(uuid "65c12e43-9f9e-46e2-8a8a-762ab2f700ee")
 		(property "Sheetname" "References"
-			(at 177.8 108.5084 0)
+			(at 114.935 135.8134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +680,7 @@
 			)
 		)
 		(property "Sheetfile" "References.kicad_sch"
-			(at 177.8 113.6146 0)
+			(at 114.935 140.9196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -433,7 +691,7 @@
 		(instances
 			(project "AD9248"
 				(path "/d7c6bdb5-efe4-402d-982f-a101ad564d95"
-					(page "5")
+					(page "9")
 				)
 			)
 		)
