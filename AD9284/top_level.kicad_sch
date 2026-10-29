@@ -1904,16 +1904,6 @@
 		)
 		(uuid "8d3c95dd-52eb-49dd-bac2-7a5be1b538ae")
 	)
-	(text "BASYS 3 FPGA to AD9248 connectors (PMOD)"
-		(exclude_from_sim no)
-		(at 179.578 233.426 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "ba8a21e1-6880-4173-8357-30a77bae5c37")
-	)
 	(text "PMOD 2"
 		(exclude_from_sim no)
 		(at 230.632 38.862 0)
@@ -3108,7 +3098,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "861e9ea2-ee7f-484e-a187-3c81b7279291")
+			(uuid "59a0ebba-ae19-475e-b06f-b824e150abd3")
 		)
 		(instances
 			(project "AD9284"
@@ -3174,10 +3164,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "39dd3f70-b4ed-4d0b-98ad-0cc9b0aa1cfe")
+			(uuid "9b41a4d2-b98d-4b33-972f-3fafd7021681")
 		)
 		(pin "1"
-			(uuid "c410440b-9efd-4d35-b076-2e149d2648f6")
+			(uuid "4efa56ab-542a-4b86-8183-64f685300d05")
 		)
 		(instances
 			(project "AD9284"
@@ -3244,10 +3234,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "34360b39-c64c-493a-8e0c-df98999ee24d")
+			(uuid "f1d82295-27d0-4725-ab53-0f8b124a8ad3")
 		)
 		(pin "1"
-			(uuid "1ce19e19-1bd6-4e67-8aa2-19849aae5b51")
+			(uuid "fe5f1d55-dd34-4480-9c81-0938607095ee")
 		)
 		(instances
 			(project "AD9284"
@@ -3314,7 +3304,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3516e32-a400-4431-9d2b-ced987d5f103")
+			(uuid "710f8aca-854d-4a0b-a0b6-24275ad0738c")
 		)
 		(instances
 			(project "AD9284"
@@ -3381,7 +3371,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec5a1904-89a4-4fce-9879-102520f43465")
+			(uuid "e398a6ff-9a22-4200-8356-847380b236f5")
 		)
 		(instances
 			(project "AD9284"
@@ -3446,7 +3436,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5914fbdc-f584-468a-937a-27c2ced7e070")
+			(uuid "8bac477b-ac07-4bb5-8a27-e37e488fbdba")
 		)
 		(instances
 			(project "AD9284"
@@ -3511,7 +3501,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "82eac9ab-cb38-492d-a83d-ed3d939cc83c")
+			(uuid "f899b021-317f-42b8-9f87-06dc2a055916")
 		)
 		(instances
 			(project "AD9284"
@@ -3578,7 +3568,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2850840-f39e-4af5-9303-b18fa4039cc4")
+			(uuid "2c863410-cbb7-4455-835f-c051aaede370")
 		)
 		(instances
 			(project "AD9284"
@@ -3645,7 +3635,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a28c2d7-0af4-4f4b-b535-55f5c3ea1996")
+			(uuid "478407d4-0f35-4cb4-914f-eaa1b20a49a9")
 		)
 		(instances
 			(project "AD9284"
@@ -3710,7 +3700,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ef37c38-9342-45f3-8978-eb12fbbb0f98")
+			(uuid "4ccf5cbf-c0d1-461e-bf44-d68f9ba2d8a1")
 		)
 		(instances
 			(project "AD9284"
@@ -3777,10 +3767,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a248b65f-4ed7-4327-a6af-b06775a09240")
+			(uuid "5624dd6a-9778-408b-9fd7-a06506b4abc0")
 		)
 		(pin "1"
-			(uuid "411e01ec-d7be-4b5b-b407-8f345367aaf7")
+			(uuid "d81dc078-42c9-4d4d-aeb7-010c27d9ecac")
 		)
 		(instances
 			(project "AD9284"
@@ -3845,7 +3835,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "47e2b72e-75f9-4c05-a3da-36c1c356229e")
+			(uuid "494daef5-00c0-4bf1-9830-565d42eb306b")
 		)
 		(instances
 			(project "AD9284"
@@ -3910,7 +3900,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd7c09f8-bd52-45f3-8066-19269fb3f6cd")
+			(uuid "bbdc0e3a-e237-48c2-8633-9fa68deffab1")
 		)
 		(instances
 			(project "AD9284"
@@ -3975,7 +3965,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "07641e04-2684-4c72-a95d-916ed274f86b")
+			(uuid "cce59b2c-5f00-4166-a0ea-1f8d1b99ca76")
 		)
 		(instances
 			(project "AD9284"
@@ -4040,7 +4030,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ba8e851-d928-49ac-965d-81f07c752396")
+			(uuid "6cde2c5c-f6c2-4ce7-bf51-0b68a6040651")
 		)
 		(instances
 			(project "AD9284"
@@ -4105,7 +4095,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6923bc83-4750-46f2-87b2-5ce6978c006e")
+			(uuid "0d7e0516-d942-4b2d-a2f7-68d2c7667a22")
 		)
 		(instances
 			(project "AD9284"
@@ -4171,7 +4161,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0012dc2b-c878-4bd4-8712-80000071330f")
+			(uuid "70bea510-28d3-402c-a65c-e7e63bf7d48f")
 		)
 		(instances
 			(project "AD9284"
@@ -4238,7 +4228,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "21693d88-6c09-4896-a8ca-5ef50c6dd2a8")
+			(uuid "dbf61467-d080-421a-861e-808e9b0193c9")
 		)
 		(instances
 			(project "AD9284"
@@ -4305,10 +4295,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d53d7239-ed92-4f89-9bfd-703de51d98fe")
+			(uuid "848e07bc-4180-4b9e-ae87-07a94851c5e6")
 		)
 		(pin "1"
-			(uuid "e20b3aef-6ae7-46a4-8a3e-b4484e986cff")
+			(uuid "b59ef2ab-a546-4dc6-9f01-be41e7d09d1a")
 		)
 		(instances
 			(project "AD9284"
@@ -4373,7 +4363,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e47e40c-abc1-4f39-81f3-3ac894056869")
+			(uuid "2fc67bd2-3ee2-4f2b-899c-1e63152c5b17")
 		)
 		(instances
 			(project "AD9284"
@@ -4440,7 +4430,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "41073ad5-04e3-4fca-8ad6-cbfeb0e14442")
+			(uuid "1b18be91-45e6-47d3-9999-ece28ae95ca1")
 		)
 		(instances
 			(project "AD9284"
@@ -4506,40 +4496,40 @@
 			)
 		)
 		(pin "12"
-			(uuid "c5262b3c-594d-4665-a444-a72b5bd0fe0a")
+			(uuid "2f6026bb-721c-4e08-b823-b7d6d353bc3c")
 		)
 		(pin "1"
-			(uuid "2c19ee4b-f49f-476e-8f88-132b35eeccf1")
+			(uuid "3a0d7193-b857-4f0c-9bb5-59292a2b0571")
 		)
 		(pin "10"
-			(uuid "5d648d54-bb03-4d7f-bcee-dec5e83b880a")
+			(uuid "cbef2336-4428-4ab4-9a1c-050dee842c19")
 		)
 		(pin "9"
-			(uuid "ed970599-dcc9-4b51-a06d-37ff90b4bc46")
+			(uuid "9ebec70b-f760-45a3-a15f-22768aa78130")
 		)
 		(pin "8"
-			(uuid "62dfc5d7-25fb-4675-9da9-5507a720e7f9")
+			(uuid "0cd13563-7252-404e-bf43-b073b56504fc")
 		)
 		(pin "11"
-			(uuid "53818931-2ed5-4e1d-9b1a-9dad8b612259")
+			(uuid "35d16d65-6e2b-4560-8718-0f30d05ea0e6")
 		)
 		(pin "4"
-			(uuid "220c5e10-de19-4a0b-ba4f-87c8a4205fd7")
+			(uuid "c41712c2-cd9e-4183-81bc-99787e82f8de")
 		)
 		(pin "3"
-			(uuid "195d4d4d-892e-4999-ae25-0aa1ccd8fc77")
+			(uuid "cec9268a-757f-4bd4-9aa6-7c7320b49e26")
 		)
 		(pin "2"
-			(uuid "7c440471-a88c-4467-8b80-dfe474cc6879")
+			(uuid "423b481f-1c1a-44fc-bf60-e3af44cd4505")
 		)
 		(pin "7"
-			(uuid "4167f28a-306a-45af-8f88-ae085ac23a24")
+			(uuid "a5d976a4-0144-4b36-a230-f6b952f6d895")
 		)
 		(pin "6"
-			(uuid "c5524e73-b814-483d-8c89-25db2a5c2594")
+			(uuid "4406e1ca-51ae-4d73-b448-61da8b88ee36")
 		)
 		(pin "5"
-			(uuid "5973a8fb-5f6f-412a-b429-1e22f256dcff")
+			(uuid "ac1188da-f22a-4a51-948a-dfa6c5d6c80b")
 		)
 		(instances
 			(project "AD9284"
@@ -4606,40 +4596,40 @@
 			)
 		)
 		(pin "12"
-			(uuid "b6bd9079-c34f-433e-8524-ec1ae99b9516")
+			(uuid "9af46403-00db-4704-ad53-c3f0eb738d9f")
 		)
 		(pin "1"
-			(uuid "c5a4a118-19d6-437c-ba50-519362cc0edd")
+			(uuid "9374509f-98f1-4585-a39e-fd54a1a85de9")
 		)
 		(pin "10"
-			(uuid "fdb195c3-824a-4fd9-9465-0d339d32dad2")
+			(uuid "492f516f-a58c-4631-9cc5-be35391b1d40")
 		)
 		(pin "9"
-			(uuid "3273826e-cb1c-4cc1-8779-a2c4226db078")
+			(uuid "f91db9f0-4509-41fa-8e60-202f984a7830")
 		)
 		(pin "8"
-			(uuid "a0e778c0-23cc-4638-ab7e-3f97b1c79cf5")
+			(uuid "1b05e2e0-74c8-4d6c-9b1e-09b408c21259")
 		)
 		(pin "11"
-			(uuid "162b9e0a-5b45-43e7-9f66-0e72d4015af0")
+			(uuid "341fa7c0-2fab-40f1-9908-9f42a6fa1e16")
 		)
 		(pin "4"
-			(uuid "e799e7c5-0d9b-4bd5-9b96-053b2a217020")
+			(uuid "b7c70857-c2fa-4511-a3c6-31e4563576ae")
 		)
 		(pin "3"
-			(uuid "d371dfd0-d12d-4ffe-9f4e-f3bf737c3b31")
+			(uuid "417ae6ea-1756-4bcb-91db-56dd4f019b39")
 		)
 		(pin "2"
-			(uuid "d36d8c9d-4bba-4ca5-970e-ef50edf08add")
+			(uuid "a443ca6a-f9fc-44b5-a57a-2fcd2853534d")
 		)
 		(pin "7"
-			(uuid "a3e9b1da-8fe3-494d-b691-52e8316b50fb")
+			(uuid "83a9b7c0-44c8-4db6-9e08-77e7907a842c")
 		)
 		(pin "6"
-			(uuid "568cd778-3792-471c-8c75-6b3e7747f20b")
+			(uuid "06b41788-2a8d-4240-b1a2-639790ef0051")
 		)
 		(pin "5"
-			(uuid "777662e1-b1af-4a54-af89-84e4ac114fee")
+			(uuid "43966418-c628-4359-b0a4-47fbc0a64192")
 		)
 		(instances
 			(project "AD9284"
@@ -4706,7 +4696,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3949c6c-27c3-4554-a538-57dbec664684")
+			(uuid "0a77b6bb-636d-4d1d-b1b9-13486525a92c")
 		)
 		(instances
 			(project "AD9284"
@@ -4753,7 +4743,7 @@
 		)
 		(pin "gnd" input
 			(at 151.13 62.23 180)
-			(uuid "5f22c444-6b45-4fe6-a8c8-1c0437b1a939")
+			(uuid "3e3efd41-94cc-4351-9b93-db144b256afd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4753,7 @@
 		)
 		(pin "VCC_3v3" input
 			(at 151.13 66.04 180)
-			(uuid "b291b2ae-520a-4057-9a47-7d63f514cd14")
+			(uuid "1f35e76f-5994-4ed5-a7b0-4aa5fa5ff6da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4763,7 @@
 		)
 		(pin "3v3_SPI_CLK" input
 			(at 151.13 72.39 180)
-			(uuid "a1f36d34-2556-470a-ba8b-26e12909e469")
+			(uuid "ad6469db-f959-443b-a454-5fb31753025f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +4773,7 @@
 		)
 		(pin "ADC2" output
 			(at 187.96 60.96 0)
-			(uuid "aa3e100d-b406-4acd-b55e-3239e6058bf9")
+			(uuid "0e9a8fd4-06f7-4604-8413-914de0531740")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +4783,7 @@
 		)
 		(pin "3v3_SPI_MOSI" input
 			(at 151.13 74.93 180)
-			(uuid "cdd101a5-dc74-4e0b-87a6-1d899ef088e6")
+			(uuid "d08bd020-ad3b-4d12-8669-ed7ac40c38e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +4793,7 @@
 		)
 		(pin "ADC0" output
 			(at 187.96 55.88 0)
-			(uuid "c75573e4-48d0-4ffa-b87c-f99ecaa7a672")
+			(uuid "401bb8b3-0591-4313-b1b5-d3e9b9946d07")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4803,7 @@
 		)
 		(pin "3v3_SPI_NSS" input
 			(at 151.13 69.85 180)
-			(uuid "263218cc-5d90-43e0-8e59-c1f54795df74")
+			(uuid "cce080fc-9df0-4c51-bed1-7c95d4da537f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4813,7 @@
 		)
 		(pin "ADC5" output
 			(at 187.96 73.66 0)
-			(uuid "7d69e145-2d03-4f88-ac1a-6881e52b2887")
+			(uuid "c776675d-a399-4337-8e12-b8cf76681dfd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4823,7 @@
 		)
 		(pin "ADC_CLKOUT" output
 			(at 187.96 92.71 0)
-			(uuid "0e45eff4-bb65-46c6-9535-c645c313c465")
+			(uuid "7e1b6f07-6659-45e5-8518-706eba39a330")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4833,7 @@
 		)
 		(pin "ADAR_VIN1N" input
 			(at 151.13 81.28 180)
-			(uuid "567a56d8-3f18-4f6e-b9e5-ab98db01a203")
+			(uuid "1bbf0362-846f-441e-876c-16eab75ccc5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4843,7 @@
 		)
 		(pin "ADC6" output
 			(at 187.96 76.2 0)
-			(uuid "4b5cf2c1-22c8-4d24-a04b-b3ba54ddf176")
+			(uuid "511afd10-97f5-40cd-87d2-01c3db18f2e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4853,7 @@
 		)
 		(pin "ADC3" output
 			(at 187.96 63.5 0)
-			(uuid "97e9dff2-9a08-4ce3-8cf3-35ba61e66a12")
+			(uuid "08cff352-1358-450b-85e0-c1e4a4c5fda1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +4863,7 @@
 		)
 		(pin "ADC4" output
 			(at 187.96 71.12 0)
-			(uuid "8db4948e-b533-45a1-9146-fee408312f20")
+			(uuid "56437806-0070-46ea-82bb-5f1a45e12687")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4873,7 @@
 		)
 		(pin "ADC7" output
 			(at 187.96 78.74 0)
-			(uuid "a21e56a0-b2bd-4e11-9a36-4648f489bb8c")
+			(uuid "178c7bfb-1c5a-44d0-91f1-a8e7755b3fab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4883,7 @@
 		)
 		(pin "ADC1" output
 			(at 187.96 58.42 0)
-			(uuid "43f3e0db-1e48-43f7-805a-3e636349a56e")
+			(uuid "f15e1514-1a77-4d1b-a39f-74bf9aa31a43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4893,7 @@
 		)
 		(pin "ADAR_VOCM" input
 			(at 151.13 55.88 180)
-			(uuid "7dec65b8-b408-4b3a-b997-a186228a3f91")
+			(uuid "3ef5ddc8-6b78-46d2-be34-082ef4c6e452")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4903,7 @@
 		)
 		(pin "ADAR_VIN1P" input
 			(at 151.13 83.82 180)
-			(uuid "1ddb113f-f59d-46fb-a74e-d51a46361425")
+			(uuid "137463d4-9ae1-46f1-b450-431868f1e7b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4913,7 @@
 		)
 		(pin "ADAR_VIN2N" input
 			(at 151.13 88.9 180)
-			(uuid "8dd6adf9-7506-4caf-a448-d24bbca8f250")
+			(uuid "90c98ce5-39c1-4ba5-ab9d-9d47983474ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +4923,7 @@
 		)
 		(pin "ADAR_VIN2P" input
 			(at 151.13 91.44 180)
-			(uuid "f7c08d4d-382a-4bb1-8fc3-5f4b604eac29")
+			(uuid "b7d298d0-d53d-4cbe-988d-6d3457a78598")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +4933,7 @@
 		)
 		(pin "FPGA_CLK" input
 			(at 151.13 77.47 180)
-			(uuid "0b14d250-4b00-48f9-b9f6-d7d588fed201")
+			(uuid "325b3aae-80f9-4726-aedb-9f1a20dc42fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,7 +4943,7 @@
 		)
 		(pin "SPI_Level_Shifting_Enable" input
 			(at 151.13 101.6 180)
-			(uuid "823ffc50-659f-408d-b2e7-8e7a07e3995a")
+			(uuid "2429ec1a-1169-4b63-81f7-c512a9869033")
 			(effects
 				(font
 					(size 1.27 1.27)

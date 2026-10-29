@@ -66,6 +66,17 @@
 		)
 		(uuid "73ac618a-b468-40f4-9a6a-9a01a9d88fb8")
 	)
+	(text "(10)"
+		(exclude_from_sim no)
+		(at 193.294 120.904 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(href "#10")
+		)
+		(uuid "7b8abb70-0096-4390-ae3d-706488e033a2")
+	)
 	(text "(2)"
 		(exclude_from_sim no)
 		(at 193.167 88.392 0)
@@ -139,7 +150,7 @@
 			)
 		)
 		(column_widths 6.35 86.995 17.399)
-		(row_heights 3.81 3.81 3.81 3.81 3.81 3.81 3.81 4.572 4.572)
+		(row_heights 3.81 3.81 3.81 3.81 3.81 3.81 3.81 4.572 4.572 4.572)
 		(cells
 			(table_cell "1"
 				(exclude_from_sim no)
@@ -566,7 +577,7 @@
 				)
 				(uuid "fe33f72c-ddea-4801-9e98-a220ea7276ca")
 			)
-			(table_cell "References"
+			(table_cell "LED bjt driver sim"
 				(exclude_from_sim no)
 				(at 97.79 113.792 0)
 				(size 86.995 4.572)
@@ -599,6 +610,57 @@
 					(justify left top)
 				)
 				(uuid "49499087-699d-43ca-b1da-89cfb69c3e88")
+			)
+			(table_cell "10"
+				(exclude_from_sim no)
+				(at 91.44 118.364 0)
+				(size 6.35 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "49499087-699d-43ca-b1da-89cfb69c3e88")
+			)
+			(table_cell "References"
+				(exclude_from_sim no)
+				(at 97.79 118.364 0)
+				(size 86.995 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "0a2a35bb-ba9d-43bc-b0b4-3648ed1d59bb")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 184.785 118.364 0)
+				(size 17.399 4.572)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+					(justify left top)
+				)
+				(uuid "fe33f72c-ddea-4801-9e98-a220ea7276ca")
 			)
 		)
 	)
@@ -671,6 +733,48 @@
 		)
 		(property "Sheetfile" "References.kicad_sch"
 			(at 114.935 140.9196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AD9284"
+				(path "/d7c6bdb5-efe4-402d-982f-a101ad564d95"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 135.89)
+		(size 13.335 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "997077e9-32f7-4af8-af6e-b0e29706ec3d")
+		(property "Sheetname" "LED_Driver_Sim"
+			(at 189.23 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_Driver_Sim.kicad_sch"
+			(at 189.23 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

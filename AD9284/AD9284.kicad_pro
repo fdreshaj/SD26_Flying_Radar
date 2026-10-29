@@ -468,7 +468,7 @@
     ]
   },
   "meta": {
-    "filename": "AD9248.kicad_pro",
+    "filename": "AD9284.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -670,6 +670,10 @@
     [
       "885dc6c6-ad77-4338-8134-50550e331b74",
       "AD8051 Sallen Key Filter Simulation"
+    ],
+    [
+      "997077e9-32f7-4af8-af6e-b0e29706ec3d",
+      "LED_Driver_Sim"
     ],
     [
       "65c12e43-9f9e-46e2-8a8a-762ab2f700ee",
