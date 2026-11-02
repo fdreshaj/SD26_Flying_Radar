@@ -671,4 +671,15 @@
 		(uuid "f3203029-5345-47fb-bf2b-03c4bccb8503")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/AD8052ARMZ_REEL7/AD8052ARMZ_REEL7.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

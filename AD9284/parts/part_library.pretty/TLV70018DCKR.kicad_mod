@@ -543,4 +543,15 @@
 		(uuid "d4174e64-762a-4d23-b10e-6176bbee1b4f")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/TLV70018DCKR/TLV70018DCKR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

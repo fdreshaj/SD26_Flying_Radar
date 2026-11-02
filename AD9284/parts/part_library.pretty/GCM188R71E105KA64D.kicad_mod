@@ -281,4 +281,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/GCM188R71E105KA64D/GCM188R71E105KA64D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1550,7 +1550,7 @@
 	)
 	(text "75 ohm"
 		(exclude_from_sim no)
-		(at 269.494 43.688 0)
+		(at 269.24 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1823,7 +1823,7 @@
 	)
 	(text "75 ohm"
 		(exclude_from_sim no)
-		(at 269.494 87.884 0)
+		(at 269.24 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)

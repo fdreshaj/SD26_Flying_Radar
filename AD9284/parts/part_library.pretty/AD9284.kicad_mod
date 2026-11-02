@@ -2794,4 +2794,15 @@
 		(uuid "f1af0092-0af3-4871-8d38-33629a45bb5e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/AD9284BCPZ_250/AD9284.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

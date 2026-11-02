@@ -1591,12 +1591,6 @@
 		(uuid "464b47eb-cd25-466c-9a79-afba8469a30f")
 	)
 	(junction
-		(at 231.14 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c294416-075b-42d3-9333-97eddd3f89c9")
-	)
-	(junction
 		(at 246.38 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1930,7 +1924,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 147.32) (xy 231.14 144.78)
+			(xy 231.14 138.43) (xy 231.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2330,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 144.78) (xy 254 144.78)
+			(xy 226.06 144.78) (xy 254 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2477,16 +2471,6 @@
 			(type default)
 		)
 		(uuid "8eb1d48c-a580-4432-9d19-e52f440b5d62")
-	)
-	(wire
-		(pts
-			(xy 231.14 138.43) (xy 231.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f1f54e6-90ab-4633-a504-6fd644290508")
 	)
 	(wire
 		(pts
@@ -2997,16 +2981,6 @@
 			(type default)
 		)
 		(uuid "ea68fda8-4801-41cd-9e54-5a2f84a132b9")
-	)
-	(wire
-		(pts
-			(xy 226.06 144.78) (xy 231.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec9b5762-dfc1-4b5e-945f-5387cf61842d")
 	)
 	(wire
 		(pts
@@ -4580,7 +4554,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 62.23 161.29 0)
 			(effects
 				(font
@@ -4645,7 +4619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 187.96 0)
 			(effects
 				(font
@@ -4710,7 +4684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 172.72 0)
 			(effects
 				(font
@@ -4775,7 +4749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 62.23 168.91 0)
 			(effects
 				(font
@@ -4840,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 165.1 0)
 			(effects
 				(font
@@ -5116,7 +5090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:clk_header"
 			(at 62.23 187.96 0)
 			(effects
 				(font
@@ -5181,7 +5155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 148.59 0)
 			(effects
 				(font
@@ -5315,7 +5289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 180.34 0)
 			(effects
 				(font
@@ -5380,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 140.97 0)
 			(effects
 				(font
@@ -5445,7 +5419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 156.21 0)
 			(effects
 				(font
@@ -5510,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:PinHeader_1x01_P2.54mm_Vertical_small_keepout"
 			(at 26.67 133.35 0)
 			(effects
 				(font
@@ -5575,7 +5549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "part_library:clk_header"
 			(at 62.23 180.34 0)
 			(effects
 				(font

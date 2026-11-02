@@ -292,4 +292,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/06031AR47CAT2A/06031AR47CAT2A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

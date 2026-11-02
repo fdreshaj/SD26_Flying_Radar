@@ -258,4 +258,15 @@
 		(uuid "fb1aa16b-c822-4667-ad53-84e8d5ea126a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/RC1206FR_0733RL/RC1206FR_0733RL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

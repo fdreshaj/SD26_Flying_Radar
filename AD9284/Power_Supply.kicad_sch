@@ -1550,7 +1550,7 @@
 	)
 	(text "75 ohm"
 		(exclude_from_sim no)
-		(at 269.24 44.45 0)
+		(at 269.494 43.688 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1560,7 +1560,7 @@
 	)
 	(text "[1] Pg. 22"
 		(exclude_from_sim no)
-		(at 150.876 139.446 0)
+		(at 154.686 139.446 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1571,7 +1571,7 @@
 	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 102.108 178.054 0)
+		(at 113.538 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1579,9 +1579,9 @@
 		)
 		(uuid "34f2619e-1757-4fc1-b990-25bbd263347c")
 	)
-	(text "pin 44, 45, 48\n\n"
+	(text "pin 44, 45\n\n"
 		(exclude_from_sim no)
-		(at 69.342 139.446 0)
+		(at 64.262 139.446 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1589,9 +1589,19 @@
 		)
 		(uuid "3c957543-66d7-441b-a251-e95ed2255349")
 	)
+	(text "pin 37\n"
+		(exclude_from_sim no)
+		(at 132.842 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3eb8e77c-47e1-46da-b85a-e4359e5ef0c5")
+	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 83.82 178.054 0)
+		(at 95.25 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1611,7 +1621,7 @@
 	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 56.388 148.59 0)
+		(at 51.308 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1641,7 +1651,7 @@
 	)
 	(text "Pin 8\n\n"
 		(exclude_from_sim no)
-		(at 78.232 168.402 0)
+		(at 89.662 168.402 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1651,7 +1661,7 @@
 	)
 	(text "Pin 41\n\n"
 		(exclude_from_sim no)
-		(at 236.22 143.764 0)
+		(at 240.03 143.764 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1661,13 +1671,23 @@
 	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 249.174 150.368 0)
+		(at 252.984 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "750e38d7-1b43-4bb9-8ee1-778ece4de1e0")
+	)
+	(text "pin 48\n\n"
+		(exclude_from_sim no)
+		(at 116.332 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79327d6d-d345-4827-9b50-2c0292b957bb")
 	)
 	(text "47000 ohm"
 		(exclude_from_sim no)
@@ -1692,7 +1712,7 @@
 	)
 	(text "ADC power input pins decoupling:"
 		(exclude_from_sim no)
-		(at 68.326 128.016 0)
+		(at 82.042 128.27 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1700,9 +1720,9 @@
 		)
 		(uuid "7dc0073c-17de-4282-9628-750f167a96f7")
 	)
-	(text "pin 35 - 37\n\n\n"
+	(text "pin 35, 36\n\n\n"
 		(exclude_from_sim no)
-		(at 87.63 140.462 0)
+		(at 82.55 140.462 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1712,7 +1732,7 @@
 	)
 	(text "pin 27\n\n\n"
 		(exclude_from_sim no)
-		(at 96.266 169.418 0)
+		(at 107.696 169.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,7 +1783,7 @@
 	)
 	(text "pin 1, 2\n"
 		(exclude_from_sim no)
-		(at 51.054 138.684 0)
+		(at 45.974 138.684 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1773,7 +1793,7 @@
 	)
 	(text "C0603C104K5RACTU\n"
 		(exclude_from_sim no)
-		(at 241.3 153.67 0)
+		(at 245.11 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,7 +1803,7 @@
 	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 189.992 150.368 0)
+		(at 193.802 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1793,7 +1813,7 @@
 	)
 	(text "pin 43\n\n\n"
 		(exclude_from_sim no)
-		(at 182.372 142.494 0)
+		(at 186.182 142.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1803,7 +1823,7 @@
 	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 91.694 148.844 0)
+		(at 86.614 148.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1823,7 +1843,7 @@
 	)
 	(text "75 ohm"
 		(exclude_from_sim no)
-		(at 269.24 88.9 0)
+		(at 269.494 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1833,7 +1853,7 @@
 	)
 	(text "1uF\n"
 		(exclude_from_sim no)
-		(at 172.212 148.844 0)
+		(at 176.022 148.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1843,7 +1863,7 @@
 	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 110.998 148.844 0)
+		(at 105.918 148.844 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1851,9 +1871,29 @@
 		)
 		(uuid "cb8352bc-ac54-4673-a0f2-8d5230cd0ed3")
 	)
+	(text "0.1u\n"
+		(exclude_from_sim no)
+		(at 139.446 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d428e4b9-bc37-4e3d-a70b-bb7859b77790")
+	)
+	(text "0.1u\n"
+		(exclude_from_sim no)
+		(at 122.428 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5779337-a922-4600-bcdd-80baf4ff33c2")
+	)
 	(text "pin 42, 40\n\n\n"
 		(exclude_from_sim no)
-		(at 104.394 140.716 0)
+		(at 99.314 140.716 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,7 +1903,7 @@
 	)
 	(text "0.1u\n"
 		(exclude_from_sim no)
-		(at 75.438 148.336 0)
+		(at 70.358 148.336 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1904,7 +1944,7 @@
 	)
 	(text "C0603C104K5RACTU\n"
 		(exclude_from_sim no)
-		(at 65.786 177.038 0)
+		(at 77.216 177.038 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1914,7 +1954,7 @@
 	)
 	(text "C0603C104K5RACTU\n"
 		(exclude_from_sim no)
-		(at 197.104 152.654 0)
+		(at 200.914 152.654 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1924,7 +1964,7 @@
 	)
 	(text "[1] Pg. 22"
 		(exclude_from_sim no)
-		(at 223.52 137.16 0)
+		(at 227.33 137.16 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -1934,10 +1974,16 @@
 		(uuid "f9f522de-09f0-4a11-9786-84dacc96b842")
 	)
 	(junction
-		(at 78.74 168.91)
+		(at 90.17 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08ca2b42-8530-4c78-892b-13c45eea0172")
+	)
+	(junction
+		(at 100.33 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ed200ed-8b7c-402a-a702-935ae77360ab")
 	)
 	(junction
 		(at 66.04 95.25)
@@ -1946,7 +1992,7 @@
 		(uuid "14484e1b-2e23-48b3-863c-3b0e75593632")
 	)
 	(junction
-		(at 69.85 154.94)
+		(at 64.77 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1feebad2-4bb7-4fcb-9a47-95412b1d9f64")
@@ -1958,7 +2004,7 @@
 		(uuid "336890f5-dcf8-4a44-a5d9-89bd3852adb5")
 	)
 	(junction
-		(at 87.63 139.7)
+		(at 82.55 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40768225-01a8-4af9-8246-694270cabfcc")
@@ -1988,10 +2034,22 @@
 		(uuid "7707ad89-eaae-4462-989a-d5135c6538fd")
 	)
 	(junction
-		(at 50.8 154.94)
+		(at 45.72 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cc61da1-cfcf-43f5-a4c4-07ce0e563f0e")
+	)
+	(junction
+		(at 116.84 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dadcb9b-f8da-4cca-81f4-fea66d0c18fb")
+	)
+	(junction
+		(at 100.33 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fffe837-5604-4493-8886-65ef0799e332")
 	)
 	(junction
 		(at 186.69 88.9)
@@ -2024,7 +2082,7 @@
 		(uuid "a940d2b8-6770-4e82-b2ee-13bcdc16e2d9")
 	)
 	(junction
-		(at 50.8 139.7)
+		(at 45.72 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b34f3bdf-e555-46ae-baf1-216e1a1e9d10")
@@ -2036,7 +2094,7 @@
 		(uuid "b82def52-9445-459b-b52e-df901a2eac73")
 	)
 	(junction
-		(at 179.07 142.24)
+		(at 182.88 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb84ceed-35be-4a2a-8b34-63dc452a7784")
@@ -2048,25 +2106,31 @@
 		(uuid "c2b7901d-fd38-4ed1-8851-df5bf5aadb67")
 	)
 	(junction
-		(at 69.85 139.7)
+		(at 64.77 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccd21a84-3117-4d00-a64a-86b3df701a28")
 	)
 	(junction
-		(at 179.07 157.48)
+		(at 116.84 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4c49730-1f46-4401-a23d-996e0f87f265")
+	)
+	(junction
+		(at 182.88 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfd477a3-e34c-4b57-83f6-e092c27c1cea")
 	)
 	(junction
-		(at 78.74 184.15)
+		(at 90.17 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f15481b5-6d37-4c8b-9b7e-ee0c93bb6ff2")
 	)
 	(junction
-		(at 87.63 154.94)
+		(at 82.55 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa1a4ff8-b8b4-422e-985b-9d96d651c84c")
@@ -2083,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 144.78) (xy 246.38 144.78)
+			(xy 257.81 144.78) (xy 250.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2093,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 157.48) (xy 179.07 157.48)
+			(xy 189.23 157.48) (xy 182.88 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2103,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 143.51) (xy 105.41 139.7)
+			(xy 100.33 143.51) (xy 100.33 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 154.94) (xy 50.8 154.94)
+			(xy 38.1 154.94) (xy 45.72 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2233,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 153.67) (xy 179.07 157.48)
+			(xy 182.88 153.67) (xy 182.88 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2243,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 184.15) (xy 78.74 184.15)
+			(xy 64.77 184.15) (xy 90.17 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2253,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 139.7) (xy 69.85 139.7)
+			(xy 82.55 139.7) (xy 64.77 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2263,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 151.13) (xy 69.85 154.94)
+			(xy 64.77 151.13) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2313,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 154.94) (xy 87.63 154.94)
+			(xy 82.55 154.94) (xy 100.33 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2363,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 156.21) (xy 254 160.02)
+			(xy 257.81 156.21) (xy 257.81 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 168.91) (xy 78.74 168.91)
+			(xy 107.95 168.91) (xy 90.17 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2433,13 +2497,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 139.7) (xy 87.63 139.7)
+			(xy 82.55 139.7) (xy 100.33 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a03ebe6-25a8-4dc8-b2fd-b49ea99200e4")
+	)
+	(wire
+		(pts
+			(xy 133.35 151.13) (xy 133.35 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b01d80c-9b32-41c4-8c06-3058cbfaaa02")
 	)
 	(wire
 		(pts
@@ -2463,6 +2537,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 139.7) (xy 133.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc7fb23-9b72-449b-91a9-0bff4c2659a8")
+	)
+	(wire
+		(pts
 			(xy 218.44 82.55) (xy 218.44 113.03)
 		)
 		(stroke
@@ -2483,7 +2567,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 146.05) (xy 185.42 142.24)
+			(xy 189.23 146.05) (xy 189.23 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2513,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 180.34) (xy 78.74 184.15)
+			(xy 90.17 180.34) (xy 90.17 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2543,13 +2627,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 154.94) (xy 69.85 154.94)
+			(xy 82.55 154.94) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a6996d4-6e96-43f5-b25e-5f34cfd1d812")
+	)
+	(wire
+		(pts
+			(xy 116.84 139.7) (xy 133.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c836fd8-8286-4451-bded-199914879922")
 	)
 	(wire
 		(pts
@@ -2573,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 143.51) (xy 69.85 139.7)
+			(xy 64.77 143.51) (xy 64.77 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 172.72) (xy 78.74 168.91)
+			(xy 90.17 172.72) (xy 90.17 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2593,7 +2687,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 142.24) (xy 179.07 142.24)
+			(xy 189.23 142.24) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2603,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 157.48) (xy 173.99 157.48)
+			(xy 182.88 157.48) (xy 177.8 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2613,7 +2707,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 172.72) (xy 96.52 168.91)
+			(xy 107.95 172.72) (xy 107.95 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2653,6 +2747,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 151.13) (xy 116.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9262d860-2581-4b76-a35a-410c5319eb6f")
+	)
+	(wire
+		(pts
 			(xy 52.07 71.12) (xy 55.88 71.12)
 		)
 		(stroke
@@ -2663,7 +2767,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 143.51) (xy 87.63 139.7)
+			(xy 82.55 143.51) (xy 82.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2787,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 160.02) (xy 247.65 160.02)
+			(xy 257.81 160.02) (xy 251.46 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +2797,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 142.24) (xy 179.07 142.24)
+			(xy 177.8 142.24) (xy 182.88 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 154.94) (xy 69.85 154.94)
+			(xy 45.72 154.94) (xy 64.77 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2723,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 139.7) (xy 69.85 139.7)
+			(xy 45.72 139.7) (xy 64.77 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 184.15) (xy 78.74 184.15)
+			(xy 107.95 184.15) (xy 90.17 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2763,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 148.59) (xy 254 144.78)
+			(xy 257.81 148.59) (xy 257.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2790,6 +2894,16 @@
 			(type default)
 		)
 		(uuid "b804c8a1-bb73-49e9-a0b2-44d6a2b2a245")
+	)
+	(wire
+		(pts
+			(xy 100.33 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9c4bce-9b63-44cb-842a-fc1e7eed5790")
 	)
 	(wire
 		(pts
@@ -2820,6 +2934,16 @@
 			(type default)
 		)
 		(uuid "c4ce644e-9cc2-45ee-b58c-dbf5692c1014")
+	)
+	(wire
+		(pts
+			(xy 100.33 154.94) (xy 116.84 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c839db1d-40c5-444b-a9e7-2b84e52236f0")
 	)
 	(wire
 		(pts
@@ -2863,6 +2987,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 154.94) (xy 133.35 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ae0527-60ae-41e9-b614-b547f7927ed1")
+	)
+	(wire
+		(pts
+			(xy 116.84 143.51) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35de1b5-d916-4f69-a502-5750cb0171ff")
+	)
+	(wire
+		(pts
 			(xy 261.62 73.66) (xy 257.81 73.66)
 		)
 		(stroke
@@ -2903,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 139.7) (xy 43.18 139.7)
+			(xy 45.72 139.7) (xy 38.1 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 154.94) (xy 50.8 151.13)
+			(xy 45.72 154.94) (xy 45.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 180.34) (xy 96.52 184.15)
+			(xy 107.95 180.34) (xy 107.95 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2953,7 +3097,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 168.91) (xy 78.74 168.91)
+			(xy 64.77 168.91) (xy 90.17 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2973,7 +3117,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 153.67) (xy 185.42 157.48)
+			(xy 189.23 153.67) (xy 189.23 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2993,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 151.13) (xy 105.41 154.94)
+			(xy 100.33 151.13) (xy 100.33 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3033,7 +3177,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 143.51) (xy 50.8 139.7)
+			(xy 45.72 143.51) (xy 45.72 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3043,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 142.24) (xy 179.07 146.05)
+			(xy 182.88 142.24) (xy 182.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3053,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 151.13) (xy 87.63 154.94)
+			(xy 82.55 151.13) (xy 82.55 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3092,7 +3236,7 @@
 		(uuid "fe31d345-699a-46e8-8950-cf1a0deabdb6")
 	)
 	(image
-		(at 173.736 131.318)
+		(at 177.546 131.318)
 		(uuid "20422358-646b-403f-b021-a6953530bee2")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAokAAACUCAIAAABwYiQaAAAgAElEQVR4nOy9P1SkyBf4e33nd45l"
 			"ZBmJkRiJ0WA0GA1Gg9FgNBgNRovRYjSYmS1Gg++8cxajxejLRIvRYrR43jtnMPpitBgtHS0dLR19"
@@ -3796,7 +3940,7 @@
 		)
 	)
 	(image
-		(at 245.11 130.302)
+		(at 248.92 130.302)
 		(scale 1.19226)
 		(uuid "3ae97168-ea42-4c70-aa9a-a9e272cb4136")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAgMAAABfCAIAAAD6alOlAAAdqElEQVR4nO2dPXSjSPbor97Zc1SO"
@@ -4327,7 +4471,7 @@
 	)
 	(hierarchical_label "VCC_Analog_1v8"
 		(shape output)
-		(at 43.18 139.7 180)
+		(at 38.1 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4349,7 +4493,7 @@
 	)
 	(hierarchical_label "gnd"
 		(shape input)
-		(at 247.65 160.02 180)
+		(at 251.46 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4360,7 +4504,7 @@
 	)
 	(hierarchical_label "gnd"
 		(shape input)
-		(at 53.34 184.15 180)
+		(at 64.77 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,7 +4559,7 @@
 	)
 	(hierarchical_label "AD9284_VCM"
 		(shape input)
-		(at 246.38 144.78 180)
+		(at 250.19 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4437,7 +4581,7 @@
 	)
 	(hierarchical_label "VCC_Digital_1v8"
 		(shape output)
-		(at 53.34 168.91 180)
+		(at 64.77 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4448,7 +4592,7 @@
 	)
 	(hierarchical_label "AD9284_VREF"
 		(shape input)
-		(at 173.99 142.24 180)
+		(at 177.8 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4492,7 +4636,7 @@
 	)
 	(hierarchical_label "gnd"
 		(shape input)
-		(at 173.99 157.48 180)
+		(at 177.8 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4503,7 +4647,7 @@
 	)
 	(hierarchical_label "gnd"
 		(shape input)
-		(at 43.18 154.94 180)
+		(at 38.1 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4618,7 +4762,7 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 78.74 180.34 90)
+		(at 90.17 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4626,7 +4770,7 @@
 		(dnp no)
 		(uuid "04acad50-de7a-45e4-9860-d76c30e1b5b2")
 		(property "Reference" "C3"
-			(at 82.55 175.2599 90)
+			(at 93.98 175.2599 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4635,7 +4779,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 52.07 176.53 90)
+			(at 63.5 176.53 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4645,7 +4789,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 78.74 180.34 0)
+			(at 90.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4799,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 78.74 180.34 0)
+			(at 90.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 180.34 0)
+			(at 90.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4925,7 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 69.85 151.13 90)
+		(at 64.77 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4789,7 +4933,7 @@
 		(dnp no)
 		(uuid "0beb1194-3c83-492b-879a-61e8c4412ca6")
 		(property "Reference" "C2"
-			(at 73.66 146.0499 90)
+			(at 68.58 146.0499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4798,7 +4942,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 43.18 147.32 90)
+			(at 38.1 147.32 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4808,7 +4952,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 69.85 151.13 0)
+			(at 64.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4962,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 69.85 151.13 0)
+			(at 64.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +4972,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 151.13 0)
+			(at 64.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5068,7 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 50.8 151.13 90)
+		(at 45.72 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4932,7 +5076,7 @@
 		(dnp no)
 		(uuid "27700bdc-9003-4584-be8b-caa911104cb3")
 		(property "Reference" "C1"
-			(at 54.61 146.0499 90)
+			(at 49.53 146.0499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4941,7 +5085,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 23.114 147.066 90)
+			(at 18.034 147.066 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4950,7 +5094,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 50.8 151.13 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5104,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 50.8 151.13 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +5114,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 151.13 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5524,7 @@
 	)
 	(symbol
 		(lib_id "GCM188R71E105KA64D:GCM188R71E105KA64D")
-		(at 179.07 153.67 90)
+		(at 182.88 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5388,7 +5532,7 @@
 		(dnp no)
 		(uuid "7625e584-cedb-44cb-9326-b81fafc012eb")
 		(property "Reference" "C15"
-			(at 165.354 148.844 90)
+			(at 169.164 148.844 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5397,7 +5541,7 @@
 			)
 		)
 		(property "Value" "GCM188R71E105KA64D"
-			(at 149.352 151.892 90)
+			(at 153.162 151.892 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5406,7 +5550,7 @@
 			)
 		)
 		(property "Footprint" "part_library:GCM188R71E105KA64D"
-			(at 179.07 153.67 0)
+			(at 182.88 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +5560,7 @@
 			)
 		)
 		(property "Datasheet" "GCM188R71E105KA64D"
-			(at 179.07 153.67 0)
+			(at 182.88 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 153.67 0)
+			(at 182.88 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5595,7 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 87.63 151.13 90)
+		(at 82.55 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5459,7 +5603,7 @@
 		(dnp no)
 		(uuid "7bcac49a-aebb-4105-94cc-bc77ad548f44")
 		(property "Reference" "C5"
-			(at 91.44 146.0499 90)
+			(at 86.36 146.0499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5468,7 +5612,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 60.96 147.32 90)
+			(at 55.88 147.32 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5478,7 +5622,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 87.63 151.13 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5632,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 87.63 151.13 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +5642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 151.13 0)
+			(at 82.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,15 +5667,15 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 96.52 180.34 90)
+		(at 133.35 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "82769731-c04e-4070-b120-e873ff1b8fe6")
-		(property "Reference" "C8"
-			(at 100.33 175.2599 90)
+		(uuid "811616d0-1117-4b74-91a6-f5d0d88f44bf")
+		(property "Reference" "C48"
+			(at 137.16 146.0499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5540,7 +5684,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 69.85 176.53 90)
+			(at 106.68 147.32 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5550,7 +5694,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 96.52 180.34 0)
+			(at 133.35 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5704,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 96.52 180.34 0)
+			(at 133.35 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5714,79 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 180.34 0)
+			(at 133.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "557c3dba-9d51-4ce8-bd94-e2429ddfe6f9")
+		)
+		(pin "1"
+			(uuid "f621eb1e-b20b-41e7-b90c-56992077034c")
+		)
+		(instances
+			(project "AD9284"
+				(path "/d7c6bdb5-efe4-402d-982f-a101ad564d95/090bf66c-3a30-4fe9-9ea2-31b401daa100/fd3f6832-8c26-46bc-aa37-323f8b9d3294/a761bd70-0f93-48cd-880d-a1a5c7d66a93"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
+		(at 107.95 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82769731-c04e-4070-b120-e873ff1b8fe6")
+		(property "Reference" "C8"
+			(at 111.76 175.2599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C0603C104K5RACTU"
+			(at 81.28 176.53 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "part_library:C0603C104K5RACTU"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 107.95 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5882,7 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 185.42 153.67 90)
+		(at 189.23 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5674,7 +5890,7 @@
 		(dnp no)
 		(uuid "8844ac7a-4070-4ee9-a75a-a7fb6895c9d4")
 		(property "Reference" "C16"
-			(at 187.706 147.828 90)
+			(at 191.516 147.828 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5683,7 +5899,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 158.75 149.86 90)
+			(at 162.56 149.86 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5693,7 +5909,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 185.42 153.67 0)
+			(at 189.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5919,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 185.42 153.67 0)
+			(at 189.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +5929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 153.67 0)
+			(at 189.23 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6382,7 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 254 156.21 90)
+		(at 257.81 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6174,7 +6390,7 @@
 		(dnp no)
 		(uuid "d3687e54-ca8f-4e20-9b77-f9be06d35ba0")
 		(property "Reference" "C10"
-			(at 241.554 150.114 90)
+			(at 245.364 150.114 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6183,7 +6399,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 227.33 152.4 90)
+			(at 231.14 152.4 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6193,7 +6409,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 254 156.21 0)
+			(at 257.81 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6419,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 254 156.21 0)
+			(at 257.81 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6213,7 +6429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 156.21 0)
+			(at 257.81 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6316,15 +6532,15 @@
 	)
 	(symbol
 		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
-		(at 105.41 151.13 90)
+		(at 116.84 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eda6aaba-0491-453d-8576-d4c50429c053")
-		(property "Reference" "C9"
-			(at 109.22 146.0499 90)
+		(uuid "e2f0b614-2aeb-4770-a445-a072c789e2af")
+		(property "Reference" "C47"
+			(at 120.65 146.0499 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6333,7 +6549,7 @@
 			)
 		)
 		(property "Value" "C0603C104K5RACTU"
-			(at 78.74 147.32 90)
+			(at 90.17 147.32 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6343,7 +6559,7 @@
 			)
 		)
 		(property "Footprint" "part_library:C0603C104K5RACTU"
-			(at 105.41 151.13 0)
+			(at 116.84 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6569,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 105.41 151.13 0)
+			(at 116.84 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6579,79 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 151.13 0)
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8966a41-96db-4a04-ae2d-7ce2c7319918")
+		)
+		(pin "1"
+			(uuid "99979be8-ee1e-408b-85fb-2170eb182c5c")
+		)
+		(instances
+			(project "AD9284"
+				(path "/d7c6bdb5-efe4-402d-982f-a101ad564d95/090bf66c-3a30-4fe9-9ea2-31b401daa100/fd3f6832-8c26-46bc-aa37-323f8b9d3294/a761bd70-0f93-48cd-880d-a1a5c7d66a93"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C0603C104K5RACTU:C0603C104K5RACTU")
+		(at 100.33 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eda6aaba-0491-453d-8576-d4c50429c053")
+		(property "Reference" "C9"
+			(at 104.14 146.0499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C0603C104K5RACTU"
+			(at 73.66 147.32 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "part_library:C0603C104K5RACTU"
+			(at 100.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at 100.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

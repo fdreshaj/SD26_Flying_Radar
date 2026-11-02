@@ -292,4 +292,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/GRM188R60J106ME47D/GRM188R60J106ME47D.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

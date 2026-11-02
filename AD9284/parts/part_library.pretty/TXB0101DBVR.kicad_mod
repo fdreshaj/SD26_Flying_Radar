@@ -579,4 +579,15 @@
 		(uuid "56a6e585-b6b5-4580-b1d6-6b56fa2d0dae")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/TXB0101DBVR/TXB0101DBVR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

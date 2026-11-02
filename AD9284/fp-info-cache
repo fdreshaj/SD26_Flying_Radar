@@ -1,4 +1,4 @@
-27275204825380448
+27280585537299777
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107989,6 +107989,13 @@ GRM3195C1H104JA05D
 2
 2
 part_library
+PinHeader_1x01_P2.54mm_Vertical_small_keepout
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
+part_library
 RC1206FR_0733RL
 
 RC1206FR-0733RL 
@@ -108044,3 +108051,17 @@ TXB0101DBVR
 0
 6
 6
+part_library
+Untitled
+
+
+0
+0
+0
+part_library
+clk_header
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1

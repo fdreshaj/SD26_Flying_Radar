@@ -1174,4 +1174,15 @@
 		(uuid "993d87e1-fcf1-479c-b22e-f5797506f7a1")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/parts/ADA4857_2YCPZ_R7/ADA4857_2YCPZ_R7.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
