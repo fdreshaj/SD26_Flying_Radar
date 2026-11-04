@@ -1,0 +1,7 @@
+# CubeIDE build output
+Debug/
+Release/
+
+# Per-user IDE settings
+*.launch
+.settings/
