@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AD7380-4BCPZ")(type "KiCad")(uri "${KIPRJMOD}/parts/AD7380-4BCPZ/AD7380-4BCPZ.kicad_sym")(options "")(descr ""))
+)
