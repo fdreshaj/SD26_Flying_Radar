@@ -4709,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA_CC_48_2_ADI"
+		(property "Footprint" "ADAR2004:LGA_CC_48_2_ADI"
 			(at 157.48 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7675,7 +7675,7 @@
 				(justify right)
 			)
 		)
-		(pin "MRST" input
+		(pin "MRST" output
 			(at 46.99 86.36 0)
 			(uuid "c1f9545d-275c-4856-adbd-3496ad21537b")
 			(effects

@@ -14843,6 +14843,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Potentially won't use\n\nNote: Different config \nfor TX and RX boards"
+		(exclude_from_sim no)
+		(at 82.55 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09f374f0-b2f7-4ae6-8d12-c89806499b5d")
+	)
 	(text "77: GPIO3\n78: GPIO1"
 		(exclude_from_sim no)
 		(at 273.558 23.622 0)
@@ -14955,7 +14965,7 @@
 	)
 	(text "Tied to gnd\nWill be CSB2 for ADAR2004"
 		(exclude_from_sim no)
-		(at 63.754 108.204 0)
+		(at 27.432 122.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16688,17 +16698,6 @@
 		)
 		(uuid "032ccc8e-2ae1-4848-bd07-0c79959a9aa6")
 	)
-	(hierarchical_label "MRST"
-		(shape output)
-		(at 101.6 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05a9cd23-5b85-421b-b191-de4d2a9f9709")
-	)
 	(hierarchical_label "3V3_SCLK"
 		(shape input)
 		(at 46.99 96.52 0)
@@ -16709,6 +16708,17 @@
 			(justify left)
 		)
 		(uuid "091fc6ef-309c-4f6d-93d6-4b7b4a9e8f65")
+	)
+	(hierarchical_label "RxRST"
+		(shape output)
+		(at 101.6 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11117499-9f2d-4313-963e-82d29f707da2")
 	)
 	(hierarchical_label "3V3CSB"
 		(shape input)
@@ -16732,18 +16742,18 @@
 		)
 		(uuid "178c062a-d534-41fb-a047-454fd013e33d")
 	)
-	(hierarchical_label "RxADV"
+	(hierarchical_label "MRST"
 		(shape output)
-		(at 80.01 21.59 180)
+		(at 101.6 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2979a04b-e5c9-4db5-9df0-b757bd2c1838")
+		(uuid "27eb42e9-e2c6-407f-b102-4298e12d1755")
 	)
-	(hierarchical_label "RxRST"
+	(hierarchical_label "RxADV"
 		(shape output)
 		(at 101.6 57.15 0)
 		(effects
@@ -16752,7 +16762,18 @@
 			)
 			(justify left)
 		)
-		(uuid "30c4e2fe-58ef-4971-beae-80662b44687e")
+		(uuid "31b9f5d9-fcc6-468a-8d62-1e72ff824829")
+	)
+	(hierarchical_label "MADV"
+		(shape output)
+		(at 80.01 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35616a82-b525-4bdd-9195-e5f880b7b062")
 	)
 	(hierarchical_label "3V3SDO"
 		(shape input)
@@ -16764,6 +16785,28 @@
 			(justify right)
 		)
 		(uuid "4136f65c-2c8e-4b71-ad91-b7ccfda5d0ab")
+	)
+	(hierarchical_label "RxADV"
+		(shape output)
+		(at 80.01 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "461f140c-0a9f-4f5a-bc24-d6c3030854e3")
+	)
+	(hierarchical_label "RxRST"
+		(shape output)
+		(at 80.01 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cbb17d9-3481-4a0b-adef-622e23db95d5")
 	)
 	(hierarchical_label "3V3_SCLK"
 		(shape input)
@@ -16797,6 +16840,17 @@
 			(justify left)
 		)
 		(uuid "55375c88-8aa4-4540-a1cf-a7e133bf77ad")
+	)
+	(hierarchical_label "MADV"
+		(shape output)
+		(at 101.6 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5590b502-d82b-48e2-9860-35c40bd44a14")
 	)
 	(hierarchical_label "3V3CSB"
 		(shape input)
@@ -16843,7 +16897,7 @@
 		(uuid "870f1380-85d8-4c3c-be5c-268d36fe05d9")
 	)
 	(hierarchical_label "MRST"
-		(shape input)
+		(shape output)
 		(at 189.23 115.57 180)
 		(effects
 			(font
@@ -16852,17 +16906,6 @@
 			(justify right)
 		)
 		(uuid "9335c3cc-a32a-49b6-88de-293325129bda")
-	)
-	(hierarchical_label "MADV"
-		(shape output)
-		(at 101.6 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98354420-1c72-488a-94c4-65c887f3a2e8")
 	)
 	(hierarchical_label "3V3_SDIO"
 		(shape input)
@@ -16887,28 +16930,6 @@
 		(uuid "aaecad42-c1e3-4e78-bf27-80bc488dfd8a")
 	)
 	(hierarchical_label "MRST"
-		(shape input)
-		(at 80.01 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2306aa7-9475-4d27-9ba7-7cf64fcdd649")
-	)
-	(hierarchical_label "RxADV"
-		(shape output)
-		(at 101.6 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9427fd6-4e00-4244-8a5d-9e0866e1aeea")
-	)
-	(hierarchical_label "MADV"
 		(shape output)
 		(at 80.01 26.67 180)
 		(effects
@@ -16917,18 +16938,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e26adac8-d9db-4c97-a759-b58f067d22e0")
-	)
-	(hierarchical_label "RxRST"
-		(shape output)
-		(at 80.01 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f447e611-bec7-474d-b670-f31520c8d224")
+		(uuid "c4b47eae-f580-4ae4-ad35-27d4f3343a64")
 	)
 	(hierarchical_label "3V3SDIO2"
 		(shape input)
