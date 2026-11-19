@@ -15029,16 +15029,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Tied to gnd\nWill be CSB2 for ADAR2004"
-		(exclude_from_sim no)
-		(at 61.214 122.174 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "082d521c-9866-4a2d-bfcf-45253adc2abc")
-	)
 	(text "Unneeded"
 		(exclude_from_sim no)
 		(at 171.196 118.872 0)
@@ -15228,6 +15218,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15ffd6c2-99c9-45d0-bf07-1f1bda260a61")
+	)
+	(junction
+		(at 39.37 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1928aab5-9782-406a-905d-0aafbfc6a610")
 	)
 	(junction
 		(at 39.37 83.82)
@@ -16157,6 +16153,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 71.12) (xy 39.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a58d657-6c97-4548-b182-6ea010b43575")
+	)
+	(wire
+		(pts
 			(xy 236.22 63.5) (xy 236.22 78.74)
 		)
 		(stroke
@@ -16488,16 +16494,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 71.12) (xy 44.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab490b20-95eb-490e-b1af-e617c66aa703")
-	)
-	(wire
-		(pts
 			(xy 146.05 33.02) (xy 140.97 33.02)
 		)
 		(stroke
@@ -16650,7 +16646,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 68.58) (xy 39.37 73.66)
+			(xy 39.37 68.58) (xy 39.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -16770,6 +16766,16 @@
 			(type default)
 		)
 		(uuid "efdc9aab-877c-4650-88ed-5ab598e4ccc4")
+	)
+	(wire
+		(pts
+			(xy 35.56 71.12) (xy 39.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0236bac-a9fb-40e1-83e6-f8ef38f00048")
 	)
 	(wire
 		(pts
@@ -16894,6 +16900,17 @@
 			(justify left)
 		)
 		(uuid "0b109644-60b2-40b9-a03a-5af9327902bc")
+	)
+	(hierarchical_label "3V3CSB"
+		(shape output)
+		(at 44.45 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10bc038b-2c46-4a77-9b97-d9b03f11c0da")
 	)
 	(hierarchical_label "TxRST"
 		(shape output)
@@ -17103,17 +17120,6 @@
 			(justify right)
 		)
 		(uuid "e24a83f5-a08a-494d-ac82-d416ebc66cbd")
-	)
-	(hierarchical_label "3V3CSB"
-		(shape output)
-		(at 44.45 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e47d9d41-b3e7-4ad3-b7a8-96e0573b0b1a")
 	)
 	(hierarchical_label "TxADV"
 		(shape output)
@@ -19075,83 +19081,6 @@
 			(project "TX_ADAR"
 				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 44.45 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0d81e6e-063a-4c4b-988e-45cf7a7d920d")
-		(property "Reference" "#PWR011"
-			(at 44.45 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 124.968 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d945ba1-10fb-4c00-9ade-0d71ebd6276e")
-		)
-		(instances
-			(project "TX_ADAR"
-				(path "/5bb7bcfe-c6dc-48dd-b109-2cc47fd52212/5711866b-ad81-4828-9e56-17f3c1154618"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
