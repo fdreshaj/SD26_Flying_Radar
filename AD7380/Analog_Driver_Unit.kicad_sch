@@ -815,6 +815,305 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ERA6AED121V:ERA6AED121V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -7.624 2.541 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ERA6AED121V"
+				(at -7.624 -5.087 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "parts:RES_ERA6AED121V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ERA-6AED121V_Panasonic.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "120 Ohms 0.5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ERA-6AED121V_Panasonic.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "ERA-6AED121V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "3/1/2020"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/ERA-6AED121V/Panasonic/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "ERA6AED121V_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GCM1885C2A751FA16J:GCM1885C2A751FA16J"
 			(pin_names
 				(offset 1.016)
@@ -2627,9 +2926,9 @@
 		)
 		(uuid "17c9c4fd-bf11-4464-b844-6d9b49e23100")
 	)
-	(text "62"
+	(text "120"
 		(exclude_from_sim no)
-		(at 107.696 45.466 0)
+		(at 97.282 46.482 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -2667,9 +2966,9 @@
 		)
 		(uuid "6836b9c4-768c-45f1-90b9-984b0a8bfdbe")
 	)
-	(text "62"
+	(text "120"
 		(exclude_from_sim no)
-		(at 110.998 93.218 0)
+		(at 96.774 100.076 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3236,6 +3535,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 52.07) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f22c90-4ddf-45a4-81d6-9ecd0c9f9583")
+	)
+	(wire
+		(pts
 			(xy 260.35 66.04) (xy 260.35 39.37)
 		)
 		(stroke
@@ -3286,16 +3595,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 91.44 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db96888-8f00-4e3f-a055-22fc9d604b6d")
-	)
-	(wire
-		(pts
 			(xy 210.82 39.37) (xy 228.6 39.37)
 		)
 		(stroke
@@ -3303,6 +3602,16 @@
 			(type default)
 		)
 		(uuid "811854bf-7973-4dc9-822d-ce8ab0a4366b")
+	)
+	(wire
+		(pts
+			(xy 91.44 105.41) (xy 91.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861cce17-645b-41cd-8792-cca112e4fc48")
 	)
 	(wire
 		(pts
@@ -3343,16 +3652,6 @@
 			(type default)
 		)
 		(uuid "95c40651-d795-4595-9c16-05e8cb54d736")
-	)
-	(wire
-		(pts
-			(xy 91.44 52.07) (xy 91.44 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9667dc82-e41b-491d-ae7a-291bf7909853")
 	)
 	(wire
 		(pts
@@ -3406,7 +3705,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 39.37) (xy 91.44 21.59)
+			(xy 91.44 21.59) (xy 91.44 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3606,7 +3905,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 91.44 71.12)
+			(xy 91.44 85.09) (xy 91.44 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5875,17 +6174,6 @@
 	)
 	(hierarchical_label "VOCM"
 		(shape input)
-		(at 177.8 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3aa34a14-8800-4b7c-bd8c-a60d0babcc7d")
-	)
-	(hierarchical_label "VOCM"
-		(shape input)
 		(at 181.61 107.95 180)
 		(effects
 			(font
@@ -5927,6 +6215,17 @@
 			(justify right)
 		)
 		(uuid "a581597a-eca3-4a9b-938d-f056d1fee43a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 177.8 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb9f7be7-8363-4cc3-8511-fa5b4fc02f88")
 	)
 	(hierarchical_label "VOCM"
 		(shape input)
@@ -6095,99 +6394,6 @@
 				)
 				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/b7e8de4f-0aee-4542-8340-1f0b14e2bdc2"
 					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RG2012N_620_W_T1:RG2012N-620-W-T1")
-		(at 91.44 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09ed90cb-7696-40fc-96ad-93d7eaf4fbf7")
-		(property "Reference" "R5"
-			(at 102.87 45.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "RG2012N-620-W-T1"
-			(at 106.426 48.006 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "parts:RG2012N_620_W_T1"
-			(at 91.44 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RG2012N-620-W-T1"
-			(at 91.44 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "774c3dc5-d4dd-4941-905f-9e4db34a0079")
-		)
-		(pin "1"
-			(uuid "4083a231-e6e6-4c14-ac82-57df3db57ca4")
-		)
-		(instances
-			(project "AD7380"
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/6a091783-3cba-4005-9bc7-ae3f8c7a9e14"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/817fad71-a239-4bc7-85c7-12d02c1c22b6"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/8668f170-bf2a-4771-a62c-c3b0bf037f3e"
-					(reference "R13")
-					(unit 1)
-				)
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/b7e8de4f-0aee-4542-8340-1f0b14e2bdc2"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6828,6 +7034,187 @@
 				)
 				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/b7e8de4f-0aee-4542-8340-1f0b14e2bdc2"
 					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ERA6AED121V:ERA6AED121V")
+		(at 91.44 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bcf8113-5f7e-4342-b83a-b2e41c2c80f0")
+		(property "Reference" "R5"
+			(at 95.25 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ERA6AED121V"
+			(at 95.25 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "parts:RES_ERA6AED121V"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ERA-6AED121V_Panasonic.pdf"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "120 Ohms 0.5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ERA-6AED121V_Panasonic.pdf"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "ERA-6AED121V"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/ERA-6AED121V/Panasonic/view-part/"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "46efba81-ef07-4397-9b2b-d4fa3c4220a2")
+		)
+		(pin "1"
+			(uuid "a2624ff2-3274-4f42-bc9d-570b4df9d174")
+		)
+		(instances
+			(project "AD7380"
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/6a091783-3cba-4005-9bc7-ae3f8c7a9e14"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/817fad71-a239-4bc7-85c7-12d02c1c22b6"
+					(reference "R5")
+					(unit 1)
+				)
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/8668f170-bf2a-4771-a62c-c3b0bf037f3e"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/b7e8de4f-0aee-4542-8340-1f0b14e2bdc2"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7736,6 +8123,187 @@
 		)
 	)
 	(symbol
+		(lib_id "ERA6AED121V:ERA6AED121V")
+		(at 91.44 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d582953f-c8f5-4450-93ca-09719ca0f810")
+		(property "Reference" "R11"
+			(at 95.25 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ERA6AED121V"
+			(at 95.25 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "parts:RES_ERA6AED121V"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/ERA-6AED121V_Panasonic.pdf"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "120 Ohms 0.5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thin Film"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ERA-6AED121V_Panasonic.pdf"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "ERA-6AED121V"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "3/1/2020"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/ERA-6AED121V/Panasonic/view-part/"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 91.44 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "d1a4599e-48c6-4195-92dd-949670f736b9")
+		)
+		(pin "1"
+			(uuid "9a65d0b2-dd42-4c24-acc4-4c74c3f8b517")
+		)
+		(instances
+			(project "AD7380"
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/6a091783-3cba-4005-9bc7-ae3f8c7a9e14"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/817fad71-a239-4bc7-85c7-12d02c1c22b6"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/8668f170-bf2a-4771-a62c-c3b0bf037f3e"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/b7e8de4f-0aee-4542-8340-1f0b14e2bdc2"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RG1608N_241_W_T1:RG1608N-241-W-T1")
 		(at 104.14 66.04 0)
 		(unit 1)
@@ -7823,100 +8391,6 @@
 				)
 				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/b7e8de4f-0aee-4542-8340-1f0b14e2bdc2"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RG2012N_620_W_T1:RG2012N-620-W-T1")
-		(at 91.44 99.06 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f30eb698-9e6b-4a8c-8efb-8fc2f9430af8")
-		(property "Reference" "R11"
-			(at 102.87 92.964 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "RG2012N-620-W-T1"
-			(at 106.426 90.424 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "parts:RG2012N_620_W_T1"
-			(at 91.44 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "RG2012N-620-W-T1"
-			(at 91.44 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3272307c-577d-4e9a-b89d-6cfc07e3dc34")
-		)
-		(pin "1"
-			(uuid "81aad00f-91c9-4a38-94b7-83a0e5487f41")
-		)
-		(instances
-			(project "AD7380"
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/6a091783-3cba-4005-9bc7-ae3f8c7a9e14"
-					(reference "R27")
-					(unit 1)
-				)
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/817fad71-a239-4bc7-85c7-12d02c1c22b6"
-					(reference "R11")
-					(unit 1)
-				)
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/8668f170-bf2a-4771-a62c-c3b0bf037f3e"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/c602b2c7-d0d4-49ed-b54c-5685a858211a/b7e8de4f-0aee-4542-8340-1f0b14e2bdc2"
-					(reference "R35")
 					(unit 1)
 				)
 			)
