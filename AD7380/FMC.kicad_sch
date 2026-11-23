@@ -3155,6 +3155,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "https://digilent.com/reference/_media/reference/programmable-logic/zedboard/fpga_package_pin_to_fmc.pdf"
+		(exclude_from_sim no)
+		(at 158.242 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6835bb88-1ed9-4adc-92f2-e2ba5f5516ac")
+	)
 	(text "FMC CONNECTOR"
 		(exclude_from_sim no)
 		(at 148.336 5.334 0)
